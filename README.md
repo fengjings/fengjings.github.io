@@ -6,5 +6,6 @@ This is the repository for your blog! Click *_config.yml* above to get started a
 # Fengjing's blog
 
 Hi, this is Fengjing's  blog.  
-please see it at [fengjings.github.io](fengjings.github.io).
+please see it at [fengjings.github.io](https://fengjings.github.io/)
+
 
