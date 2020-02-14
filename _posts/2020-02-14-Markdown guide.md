@@ -1,5 +1,5 @@
 
-# Markdown giude  
+# Markdown guide  
 
 Here's the table of contents:
 
@@ -8,11 +8,11 @@ Here's the table of contents:
 
 ## lines
 
-more than three "*"
+more than three "\*"
 
 ***
 
-more than three "-"
+more than three "\-"
 
 ---
 
@@ -26,7 +26,7 @@ __This is bold text__
 
 _This is italic text_
 
-___this is \*\*\* or \-\-\- *3 text___
+___this is \*\*\* or \-\-\-  text___
 
 
 ~~Strikethrough~~
@@ -81,7 +81,6 @@ $$
 \frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
 \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
 \end{vmatrix}
-$$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
 $$
 
 
