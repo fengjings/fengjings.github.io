@@ -8,6 +8,6 @@ Edit the `index.md` file to change this content. All pages on the blog, includin
 ![Image of fast.ai logo](images/logo.png)
 
 <!--And you can include links, like this [link to fast.ai](https://www.fast.ai).  -->  
-## search engine:  
+
 [google](www.google.com).  
-[github](www.github.com).
+

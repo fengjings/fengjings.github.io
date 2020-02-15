@@ -4,4 +4,9 @@ This is where you put the contents of your *About* page. Like all your pages, it
 -->
 
 Hi, this is Fengjing's Blog.  
-Fengjing is a PHD student major in machine learning and image processing.
+Fengjing is a PHD student major in machine learning and image processing.  
+
+My github link: [fengjings](https://github.com/fengjings)  
+Emali: [fengjing.c@gmail.com](fengjing.c@gmail.com)  
+
+
