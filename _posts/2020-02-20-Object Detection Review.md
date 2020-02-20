@@ -16,7 +16,7 @@ Here's the table of contents:
 
 ### Milestones  
 
-1. ** Milestones: Traditional Detectors**  
+1. **Milestones: Traditional Detectors**  
     + Viola Jones Detectors  
     + HOG Detector (2005)  
     + Deformable Part-based Model (DPM) (2008)  
@@ -32,8 +32,6 @@ Here's the table of contents:
     + You Only Look Once (YOLO) (2015)
 	+ Single Shot MultiBox Detector (SSD) (2015)
 	+ RetinaNet (2017)
-	+ Faster RCNN (2015)
-	+ Feature Pyramid Networks(FPN) (Feature pyramid networks for objectdetection, 2017)
 
 ### Milestones Object Detection Datasets
 
@@ -84,7 +82,7 @@ Here's the table of contents:
 	+ Real-time detection
 + **Remote Sensing Target Detection**
 
-### FUTURE DIRECTIONS
+### Future Directions
 + Lightweight object detection  
 + Detection meets AutoML  
 + Detection meets domain adaptation  
