@@ -71,7 +71,7 @@ Here's the table of contents:
     + Hard negatives
     + Dense and occluded pedestrian  
     + Real-time detection  
-+ ** Face Detection**
++ **Face Detection**
     + Intra-class variation  
 	+ Occlusion  
 	+ Multi-scale detection  
@@ -84,7 +84,7 @@ Here's the table of contents:
 	+ Real-time detection
 + **Remote Sensing Target Detection**
 
-### **FUTURE DIRECTIONS**
+### FUTURE DIRECTIONS
 + Lightweight object detection  
 + Detection meets AutoML  
 + Detection meets domain adaptation  
