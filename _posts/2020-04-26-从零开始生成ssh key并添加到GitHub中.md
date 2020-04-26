@@ -77,6 +77,30 @@ $ git push
 ......
 ```
 
+commit时遇到如下情况：
+```sh
+$ git commit -m "update files"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+```
+
+因此再通过config进行邮箱和名字的设置。
+
+之后push就没有问题了。
+
+
+
+
+
+
 
 
 
