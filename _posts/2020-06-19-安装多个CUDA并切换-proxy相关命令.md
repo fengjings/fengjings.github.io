@@ -1,5 +1,4 @@
 ****
-# 如何安装多版本cuda并切换
 
 ### introduction
 继续用昨天的电脑进行操作
@@ -69,11 +68,34 @@ export all_proxy="https://127.0.0.1:7890"
 export all_proxy="http://127.0.0.1:7890"
 ```
 
+举例安装tf虚拟环境
+```sh
+conda info --env
+conda create -n tf-py37 python=3.7
+ValueError: Unable to determine SOCKS version from socks://127.0.0.1:7891/
+unset all_proxy && unset ALL_PROXY
+conda create -n tf-py37 python=3.7
+#################################
+conda info --env
+base                  *  /home/fengjing/anaconda3
+tf-py37                  /home/fengjing/anaconda3/envs/tf-py37
+#################################
+source activate tf-py37
+#################################
+nvcc -V
+Cuda compilation tools, release 10.2, V10.2.89
+#################################
+conda install tensorflow-gpu
+```
+
+nvidia-smi实时刷新并高亮显示状态
+```sh
+watch -n 1 -d nvidia-smi
+```
 
 
-
-
-
-
-
+类似于任务管理器
+```sh
+gnome-system-monitor
+```
 
