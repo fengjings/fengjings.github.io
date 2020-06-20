@@ -7,14 +7,14 @@
 
 SSD论文下载： <https://arxiv.org/pdf/1512.02325.pdf%EF%BC%89>  
 caffe实现—官方：<https://github.com/weiliu89/caffe/tree/ssd>  
-tensorflow实现—非官方：<https://github.com/balancap/SSD-Tensorflow>  
-pytorch实现—非官方：<https://github.com/amdegroot/ssd.pytorch>  
+tensorflow—非官方：<https://github.com/balancap/SSD-Tensorflow>  
+pytorch—非官方：<https://github.com/amdegroot/ssd.pytorch>  
 
 这里，需要说明：
-1.支持Python3.7版本（本文版本）
-2.推荐通过支持CUDA的GPU来训练，用CPU也可以训练，不过非常非常慢
+1.支持Python3.7版本（本文版本）  
+2.推荐通过支持CUDA的GPU来训练，用CPU也可以训练，不过非常非常慢  
 3.目前只支持VOC2007/VOC2012 、COCO数据集、对ImageNet数据集还不能够支持
-4.ubuntu18.04(原文中windows也可)
+4.ubuntu18.04
 
 之前安装过虚拟环境
 ```sh
@@ -32,25 +32,28 @@ VOC2007
 训练集+测试集  
 <http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar>
 <http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar>
+
 VOC2012  
 训练集+测试集  
 <http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar>
+
 原网址如果某些原因上不去，可以去这里  
 <https://share.functionweb.tk/>
 
-将下载后的文件解压，将VOC2007和VOC2012文件夹共同放入VOCdevkit下，此文件夹路径即为后面代码中需要用到的VOC_ROOT。  
+将下载后的文件解压，将VOC2007和VOC2012文件夹共同放入VOCdevkit下  
+此文件夹路径即为后面代码中需要用到的VOC_ROOT。  
 ```sh
-VOC_ROOT='D:\\...\\VOC\\VOCdevkit\\'
- VOC_ROOT = 'home/..../dataset/VOCdevkit/'
+VOC_ROOT='D:\\...\\VOC\\VOCdevkit\\'   #windows
+ VOC_ROOT = 'home/..../dataset/VOCdevkit/'   #linux
 ```
 
-下载好的模型文件放入源码包weights文件夹下
+下载好的模型文件放入源码包weights文件夹下  
 <https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth>
 
 ```sh
 pip install visdom
 python -m visdom.server
-# 需要下载点东西，某些地区需要想一些办法才行，最上面的网址里有打包下好的可以使用。
+# 需要下载点东西，某些地区需要想一些办法才行，最上面的网址里有打包下好的可以使用
 # 然后可以访问http://localhost:8097/
 ```
 
@@ -107,15 +110,17 @@ parser.add_argument('--save_folder', default='weights/',
 args = parser.parse_args()
 ```
 
-设置好参数后，需要配置数据集加载路径，在源码包/data/voc0712.py中注释掉第28行，将VOC数据集路径替换为自己的路径：  
+设置好参数后，需要配置数据集加载路径  
+在源码包/data/voc0712.py中注释掉第28行  
+将VOC数据集路径替换为自己的路径：  
 data/voc0712.py  
-
 ```sh
 VOC_ROOT = osp.join(HOME, "learningPy/object-detection/data/VOCdevkit/")
 ```
 
 ### 修改源码  
-由于Pytorch版本不同，较新版的代码直接运行会报错，需要修改部分代码，主要是将.data[0]的部分改成.item()  
+由于Pytorch版本不同，较新版的代码直接运行会报错  
+需要修改部分代码，主要是将.data[0]的部分改成.item()  
 修改train.py, 修改源码183.184两行  
 ```sh
 # loc_loss += loss_l.data[0]
@@ -128,7 +133,7 @@ conf_loss += loss_c.item()
 # print('iter ' + repr(iteration) + ' || Loss: %.4f ||' % (loss.data[0]), end=' ')
 print('iter ' + repr(iteration) + ' || Loss: %.4f ||' % (loss.item()), end=' ')
 ```
-修改源码165行  
+源码165行  
 ```sh
 # load train data
 # images, targets = next(batch_iterator)
@@ -139,7 +144,7 @@ except StopIteration as e:
     images, targets = next(batch_iterator)
 ```
 
-修改mutibox_loss.py  
+修改mutibox_loss.py    
 修改：源码包/layers/modules/mutibox_loss.py  
 调换第97,98行：  
 ```sh
@@ -150,7 +155,7 @@ loss_c[pos] = 0  # filter out pos boxes for now
 
 ```
 修改第114行,修改后运行报错，因此我又改回去了  
-env是  
+env在后方  
 ```sh
 # N = num_pos.data.sum()
 N = num_pos.data.sum()# .double()
@@ -186,7 +191,8 @@ wheel            0.34.2
 修改coco.py  
 由于train.py会from data import *,而data初始化时会加载coco_labels.txt，  
 这个文件在源码包中data/下，无论你是否下载了coco数据集都不影响其加载，  
-加载时需要用到COCO_ROOT这个参数，需要修改COCO_ROOT为你的coco_labels.txt所在的父文件夹目录  
+加载时需要用到COCO_ROOT这个参数  
+需要修改COCO_ROOT为你的coco_labels.txt所在的父文件夹目录  
 ```sh
 #COCO_ROOT = osp.join(HOME, 'data/coco/')
 COCO_ROOT = osp.join(HOME, 'learningPy/object-detection/ssd.pytorch/data/')
