@@ -74,3 +74,4 @@ git clone "github path"
 + 用vscode打开那个repo的文件夹，则能看到所有文件。
 + 编辑一个markdown文件，可通过control（mac中按command） + k 然后按 v 来实时预览markdown文件。  
 + 在vscode中使用terminal并尝试git add没有问题，git commit需要输入global.email和global.name，输入完毕后即可使用，git push origin master则需要输入账号和密码。之后便可以使用vscode进行修改与上传。
++ 在vscode左侧，有source control，点进去便可以看到修改，以及可以进行commit和push，而不用到terminal中进行。对于修改的文件，可以点击‘+’得到stage changes，以及上方有commit之类的操作。
