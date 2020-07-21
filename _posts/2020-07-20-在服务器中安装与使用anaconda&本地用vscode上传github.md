@@ -1,4 +1,4 @@
-# 在服务器中安装与使用anaconda&本地用vscode上传github
+# 在服务器中安装与使用anaconda & 本地用vscode上传github
 
 ## 在服务器中安装与使用anaconda
 参考网站：  
@@ -62,6 +62,21 @@ conda activate myenv
 conda deactivate
 ```
 
+
+## 使用anaconda安装pytorch
++ 首先进入（base）环境，一般来说打开命令行即为base，然后确定cuda版本
+```sh
+nvcc -V
+```
++ 根据cuda版本决定用什么命令，如下，其中有个重要的是，经常pytorch下载不成功，因为有-c的存在，是从pytorch下载的，将'-c pytorch'删去后，即可看到是从设定的源下载，即可成功，如果还是不成功，网上有下载离线包安装的操作。
+```sh
+conda install pytorch torchvision cudatoolkit=9.2 -c pytorch
+```
++ 安装成功后，进行测试，不报错即成功。
+```sh
+import torch
+import torchvision
+```
 
 ## 本地用vscode上传github
 
