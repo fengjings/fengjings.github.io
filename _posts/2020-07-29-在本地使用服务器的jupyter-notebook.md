@@ -12,7 +12,7 @@ jupyter notebook
 
 ## 服务器端配置jupyter notebook
 
-+ 创建配置文件  
+### 创建配置文件  
 默认情况下，配置文件 ~/.jupyter/jupyter_notebook_config.py 并不存在  
 需要自行创建。  
 运行以下命令创建：
@@ -22,7 +22,7 @@ jupyter notebook --generate-config
 Writing default config to: /home/username/.jupyter/jupyter_notebook_config.py
 ```
 
-+ 生成密码  
+### 生成密码  
 服务器端命令行输入:  
 ```shell
 jupyter notebook password
@@ -38,7 +38,7 @@ Verify password:
 ```
 复制"sha1......"密文
 
-+ 修改配置文件  
+### 修改配置文件  
 在/home/username/.jupyter/jupyter_notebook_config.py中找到以下行，修改为：
 ```shell
 c.NotebookApp.ip='*' #允许访问的IP地址，设置为*代表允许任何客户端访问
