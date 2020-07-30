@@ -1,14 +1,15 @@
 # 在本地使用服务器的jupyter notebook
 
 前文已经叙述过服务器的操作。  
-目前已经可以运行GPU版的py程序。  
+目前已经可以运行GPU版的python程序。  
 本文研究如何在本地使用服务器的jupyter notebook（已经由anaconda安装过）  
-判断是否有jupyter notebook，在服务器命令行中输入下面语句，不报错即有：  
+判断是否有jupyter notebook，在服务器命令行中输入下面语句，若有，应不报错：  
 ```shell
 jupyter notebook
 ```
-参考网站：  
+下文相关操作参考了网站：  
 <http://www.bubuko.com/infodetail-3465538.html>
+
 ## 服务器端配置jupyter notebook
 
 + 创建配置文件  
@@ -56,7 +57,7 @@ jupyter notebook
 [I 10:02:48.850 NotebookApp] The Jupyter Notebook is running at:
 [I 10:02:48.850 NotebookApp] http://ubuntu:9999/
 ```
-在本地服务器的chrome中打开
+在本地浏览器中打开
 ```shell
 http://服务器端口:9999/
 ```
