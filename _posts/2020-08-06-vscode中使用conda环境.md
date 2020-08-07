@@ -61,11 +61,28 @@ ctrl+shift+p 快捷键，搜索setting.json
 `"/K"`  
 `"C:\\Users\\FengJing_W\\anaconda3\\Scripts\\activate.bat C:\\Users\\FengJing_W\\anaconda3"`  
 
+
 第一段是终端窗口，这里建议就用 cmd 不要用 powershell ，因为 powershell 对虚拟终端的支持有些问题。
 
 第二三段复制到terminal.integrated.shellArgs.windows下，对 \ 符号做转义。
 
 保存重启就能看到效果了。
+
+后来决定使用 shell prompt
+
+```sh
+    "python.linting.pylintPath":"C:\\ProgramData\\Anaconda3\\pkgs\\pylint-2.5.3-py38_0\\Scripts\\pylint",
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-ExecutionPolicy",
+        "ByPass",
+        "-NoExit",
+        "-Command",
+        "& 'C:\\ProgramData\\Anaconda3\\shell\\condabin\\conda-hook.ps1';",
+        "conda activate 'C:\\ProgramData\\Anaconda3' "
+    ],
+```
 
 ```sh
 (base) F:\github\fengjings.github.io>conda info -e
@@ -79,5 +96,16 @@ py-torch                 C:\Users\FengJing_W\anaconda3\envs\py-torch
 
 (py-torch) F:\github\fengjings.github.io>   
 ```
+## 修改terminal相关
 
+在setting中进行设置。
+```md
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.minimumContrastRatio": 7,
+    "terminal.integrated.cursorBlinking": true,
 
+    "workbench.colorCustomizations": {       
+        "terminal.foreground" : "#00FD61",
+        "terminal.background" : "#383737"   
+    }
+```
