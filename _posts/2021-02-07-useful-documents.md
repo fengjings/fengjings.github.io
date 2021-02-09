@@ -9,11 +9,8 @@ Here's the table of contents:
 
 <https://zhuanlan.zhihu.com/p/345905644>
 
-## 大盘点-2020年目标检测算法最佳综述  
 
-<https://zhuanlan.zhihu.com/p/346659355>
-
-following surveys is from site  
+## following surveys is from site  
 <https://github.com/extreme-assistant/survey-computer-vision#1>.
 
 ### Deep Domain Adaptive Object Detection: a Survey 
