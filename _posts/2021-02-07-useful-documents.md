@@ -64,12 +64,21 @@ UAV123，UAV123_10fps，UAV20L，UAVDT，DTB70和VisDrone2019-SOT。
 
 
 
+## Image-Quality-Assessment-Benchmark
 
+<https://github.com/weizhou-geek/Image-Quality-Assessment-Benchmark>  
 
++ Traditional method  
+full-reference IQA (FR-IQA)  
+reduced-reference IQA (RR-IQA)  
+no-reference IQA (NR-IQA)  
 
++ Deep Learning Based Approaches  
+full-reference IQA (FR-IQA)  
+~~reduced-reference IQA (RR-IQA)~~  
+no-reference IQA (NR-IQA)  
 
-
-
++ database
 
 
 
