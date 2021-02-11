@@ -10,10 +10,10 @@ Here's the table of contents:
 <https://zhuanlan.zhihu.com/p/345905644>
 
 
-## following surveys is from site  
+## 2020-object detection  
 <https://github.com/extreme-assistant/survey-computer-vision#1>.
 
-### Deep Domain Adaptive Object Detection: a Survey 
+### 2020-Deep Domain Adaptive Object Detection: a Survey 
 深度域适应目标检测  
 <https://arxiv.org/abs/2002.06797>  
 本文共梳理了46篇相关文献.  
@@ -22,7 +22,7 @@ Here's the table of contents:
 深域自适应目标检测(DDAOD)作为一种新的学习范式应运而生。本文综述了深域自适应目标检测方法的研究进展。   
 
 
-### Foreground-Background Imbalance Problem in Deep Object Detectors: A Review  
+### 2020-Foreground-Background Imbalance Problem in Deep Object Detectors: A Review  
 深度目标检测器中前景-背景不平衡问题综述  
 <https://arxiv.org/abs/2006.09238>
 
@@ -39,14 +39,14 @@ Here's the table of contents:
 
 
 
-### A Review and Comparative Study on Probabilistic Object Detection in Autonomous Driving  
+### 2020-A Review and Comparative Study on Probabilistic Object Detection in Autonomous Driving  
 <https://arxiv.org/abs/2011.10671>    
 自动驾驶中的概率目标检测方法综述与比较研究   
 
 
 
 
-### Camouflaged Object Detection and Tracking: A Survey
+### 2020-Camouflaged Object Detection and Tracking: A Survey
 伪装目标检测与跟踪研究综述    
 <https://arxiv.org/abs/2012.13581>    
 运动目标的检测和跟踪应用于各个领域，包括监视，异常检测，车辆导航等。  
@@ -54,13 +54,38 @@ Here's the table of contents:
 
 
 
-### 无人机-Correlation Filter for UAV-Based Aerial Tracking: A Review and Experimental Evaluation
+### 2020-无人机-Correlation Filter for UAV-Based Aerial Tracking: A Review and Experimental Evaluation
 
 相关过滤无人机空中跟踪技术综述与实验评估    
 <https://arxiv.org/abs/2010.06255>  
 基于DCF的跟踪器的基本框架。  
 总结了20种基于DCF的最新跟踪器。  
 UAV123，UAV123_10fps，UAV20L，UAVDT，DTB70和VisDrone2019-SOT。
+
+
+
+## 2019-object detection  
+[site](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247493715&idx=3&sn=3f684b51a604cc5d4878a5716aaf2b3f&chksm=f9a19adcced613caa3eef7240dfbf00e866ece9f1ce48366b63984620d1512f16a921ccdb7cf&scene=21#wechat_redirect)
+
+### 2019-Object Detection in 20 Years: A Survey  
+<https://arxiv.org/abs/1905.05055>
+
+### 2019-A Survey of Deep Learning-based Object Detection  
+<https://arxiv.org/abs/1907.09408>
+
+### 2019-Recent Advances in Deep Learning for Object Detection
+<https://arxiv.org/abs/1908.03673>
+
+### 2019-Imbalance Problems in Object Detection: A Review
+<https://arxiv.org/abs/1909.00169>
+
+
+
+
+
+
+
+
 
 
 
