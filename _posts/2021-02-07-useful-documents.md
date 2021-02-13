@@ -7,7 +7,38 @@ Here's the table of contents:
 
 ## 物体检测中的小物体问题  
 
-<https://zhuanlan.zhihu.com/p/345905644>
+物体检测中的小物体问题  [site](https://zhuanlan.zhihu.com/p/345905644)  
+
++ 提高图像拍摄分辨率
++ 增加模型的输入分辨率
++ 平铺图片
++ 通过扩充生成更多数据
++ 自动学习模型
++ 过滤掉多余的类
+
+小目标检测常用方法  [site](https://zhuanlan.zhihu.com/p/83220498)  
++ 传统的图像金字塔和多尺度滑动窗口检测  
++ Data Augmentation
++ 特征融合的FPN
++ 合适的训练方法SNIP,SNIPER,SAN  
+[SNIP site](https://arxiv.org/abs/1711.08189)  
+[SNIP code](https://github.com/mahyarnajibi/SNIPER)  
+[SNIPER site](https://arxiv.org/abs/1805.09300)  
+[SNIPER code](https://github.com/MahyarNajibi/SNIPER)  
+SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training的思想进行训练，multi-scale training是用图像金字塔作为模型的输入，这种做法虽然能够提高模型效果，但是计算量的增加也非常明显，因为模型需要处理每个scale图像的每个像素，而SNIPER（Scale Normalization for Image Pyramids with Efficient Resampling）算法以适当的比例处理ground truth（称为chips）周围的上下文区域，在训练期间每个图像生成的chips的数量会根据场景复杂度而自适应地变化，由于SNIPER在采样后的低分辨率的chips上运行，故其可以在训练期间收益于Batch Normalization，而不需要在GPU之间再用同步批量标准化进行统计信息。实验证明，BN有助于最后性能的提升。  
++ 更稠密的Anchor采样和匹配策略S3FD,FaceBoxes
++ 先生成放大特征再检测的GAN
++ 利用Context信息的Relation Network和PyramidBox
+
+
+解决小目标检测！多尺度方法汇总 [site](https://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247506911&idx=1&sn=10491a861ffffa7bc05ea6b53cab4289&chksm=ec1c3626db6bbf30230dd8103bb77d26009d1570a1b68d2cd6bfc00bc97d41e284a22ca0fe27&scene=21#wechat_redirect)  
+
++ 传统的图像金字塔
++ SNIP/SNIPER中的多尺度处理
++ SSD中的多尺度处理
++ 空洞卷积处理多尺度
++ FPN中的多尺度处理及其改进
+
 
 ## 2021-object detection & drones related  
 
@@ -76,6 +107,21 @@ UAV123，UAV123_10fps，UAV20L，UAVDT，DTB70和VisDrone2019-SOT。
 
 ## 2019-object detection  
 [site](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247493715&idx=3&sn=3f684b51a604cc5d4878a5716aaf2b3f&chksm=f9a19adcced613caa3eef7240dfbf00e866ece9f1ce48366b63984620d1512f16a921ccdb7cf&scene=21#wechat_redirect)
+
+
+### 重读 CenterNet [site](https://mp.weixin.qq.com/s/hlc1IKhKLh7Zmr5k_NAykw)  
+paper: <https://arxiv.org/abs/1904.07850>  
+code: <https://github.com/xingyizhou/CenterNet>  
++ 动机  
++ CenterNet原理  
+关键点(key point)损失函数  
+offset损失函数  
+尺寸（size）损失函数  
+整体的损失函数  
++ 网络结构
++ 使用CenterNet做3D目标检测
+
+
 
 
 ### Augmentation for small object detection* [site](https://arxiv.org/abs/1902.07296)  
