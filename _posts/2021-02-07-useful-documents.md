@@ -42,6 +42,19 @@ SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training�
 
 ## 2021-object detection & drones related  
 
+
+### High-Performance Large-Scale Image Recognition Without Normalization [site](https://arxiv.org/abs/2102.06171)   
+说明：[site](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247517020&idx=2&sn=5a9b20d36a20b641739d0ad77bf1bfe5&chksm=f9a1f1d3ced678c5974ba15f003353ecfcbd9481d8437921b25ede0401854b49c2d16d245eda&scene=126&sessionid=1613234694&key=55fcbf4895711c4c29efb51a11009902868c659e12bbde0aa9f37741f52dd088d11eebc7ca6997da73f856dccbd0e065e8b2226de7839bbcdfdcb2034771410097ceb771a68e6f931abfda762731e2d084a280d1b7e4a4bbc35f412b66a88c03e8c472e9f1125c77c246fc756b9c883bab2a2aad9601b000f83bb33a25d99123&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AThsyVtsAWz3%2BIn9ZMF5ebQ%3D&pass_ticket=sAdGHv50drvjr5%2FZxoxSpG%2BpkIDxtegv5o6yLOgTxDMqbleObR9EsLU9NXnqRU3t&wx_header=0)  
+title: 无归一化的高性能大规模图像识别  
+code: <https://github.com/deepmind/deepmind-research/tree/master/nfnets>  
+提出了自适应梯度修剪（Adaptive Gradient Clipping，AGC）方法，基于梯度范数与参数范数的单位比例来剪切梯度，研究人员证明了 AGC 可以训练更大批次和大规模数据增强的非归一化网络。  
+
+设计出了被称为 Normalizer-Free ResNets 的新网络，该方法在 ImageNet 验证集上大范围训练等待时间上都获得了最高水平。NFNet-F1 模型达到了与 EfficientNet-B7 相似的准确率，同时训练速度提高了 8.7 倍，而 NFNet 模型的最大版本则树立了全新的 SOTA 水平，无需额外数据即达到了 86.5％的 top-1 准确率。  
+
+
+
+
+
 ### A Review on Deep Learning in UAV Remote Sensing*  [site](https://arxiv.org/abs/2101.10861)   
  
 title: 深度学习在无人机遥感中的应用。  
