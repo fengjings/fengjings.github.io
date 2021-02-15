@@ -5,6 +5,15 @@ Here's the table of contents:
 1. TOC
 {:toc}
 
+
+## object detection [site](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247503263&idx=2&sn=a616690502762cac8ef53fd7b654eae6&chksm=f9a1bf10ced636066134d9bff0ea0ad4967b0b249d839ed57710d195ead32f31c8715841b8b5&scene=126&sessionid=1595058555&key=1ab88c7c386885984b23c87cd512f525a5edddbca130dfdcf8a7e1c3a134fb4c3c2bf61175b6a20a7975d34aa818b4a96c224bf61e313be4def3f4892df1da83466b7f0d4937f015861eeee59dbc7d6d&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AT1KhFpTfJ0gbEHouBYolEA%3D&pass_ticket=OMBTLn%2B90krgIUYo%2BNcsBaG3xySLn%2BOnDixb0qEjYRc%3D)   
+
++ Detectron2 [site](https://github.com/facebookresearch/detectron2)  
+AdelaiDet [site](https://github.com/aim-uofa/AdelaiDet)  
+
++ mmDetection [site](https://github.com/open-mmlab/mmdetection)   
+backbones: ResNet ResNeXt VGG HRNet RegNet Res2Net  
+
 ## 物体检测中的小物体问题  
 
 物体检测中的小物体问题  [site](https://zhuanlan.zhihu.com/p/345905644)  
@@ -43,7 +52,7 @@ SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training�
 ## 2021-object detection & drones related  
 
 
-### High-Performance Large-Scale Image Recognition Without Normalization [site](https://arxiv.org/abs/2102.06171)   
+### High-Performance Large-Scale Image Recognition Without Normalization* [site](https://arxiv.org/abs/2102.06171)   
 说明：[site](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247517020&idx=2&sn=5a9b20d36a20b641739d0ad77bf1bfe5&chksm=f9a1f1d3ced678c5974ba15f003353ecfcbd9481d8437921b25ede0401854b49c2d16d245eda&scene=126&sessionid=1613234694&key=55fcbf4895711c4c29efb51a11009902868c659e12bbde0aa9f37741f52dd088d11eebc7ca6997da73f856dccbd0e065e8b2226de7839bbcdfdcb2034771410097ceb771a68e6f931abfda762731e2d084a280d1b7e4a4bbc35f412b66a88c03e8c472e9f1125c77c246fc756b9c883bab2a2aad9601b000f83bb33a25d99123&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AThsyVtsAWz3%2BIn9ZMF5ebQ%3D&pass_ticket=sAdGHv50drvjr5%2FZxoxSpG%2BpkIDxtegv5o6yLOgTxDMqbleObR9EsLU9NXnqRU3t&wx_header=0)  
 title: 无归一化的高性能大规模图像识别  
 code: <https://github.com/deepmind/deepmind-research/tree/master/nfnets>  
