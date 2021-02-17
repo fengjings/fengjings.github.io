@@ -59,7 +59,7 @@ SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training�
 
 说明1: [CVer](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247517020&idx=2&sn=5a9b20d36a20b641739d0ad77bf1bfe5&chksm=f9a1f1d3ced678c5974ba15f003353ecfcbd9481d8437921b25ede0401854b49c2d16d245eda&scene=126&sessionid=1613234694&key=55fcbf4895711c4c29efb51a11009902868c659e12bbde0aa9f37741f52dd088d11eebc7ca6997da73f856dccbd0e065e8b2226de7839bbcdfdcb2034771410097ceb771a68e6f931abfda762731e2d084a280d1b7e4a4bbc35f412b66a88c03e8c472e9f1125c77c246fc756b9c883bab2a2aad9601b000f83bb33a25d99123&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AThsyVtsAWz3%2BIn9ZMF5ebQ%3D&pass_ticket=sAdGHv50drvjr5%2FZxoxSpG%2BpkIDxtegv5o6yLOgTxDMqbleObR9EsLU9NXnqRU3t&wx_header=0)  
 说明2: [量子位](https://mp.weixin.qq.com/s/ygf5j6VFkg5YadHoERrtlA)  
-paper: [paper](https://arxiv.org/abs/2102.06171)     
+paper: [arxiv](https://arxiv.org/abs/2102.06171)     
 title: 无归一化的高性能大规模图像识别  
 code: <https://github.com/deepmind/deepmind-research/tree/master/nfnets>  
 提出了自适应梯度修剪（Adaptive Gradient Clipping，AGC）方法，基于梯度范数与参数范数的单位比例来剪切梯度，研究人员证明了 AGC 可以训练更大批次和大规模数据增强的非归一化网络。  
@@ -71,14 +71,14 @@ code: <https://github.com/deepmind/deepmind-research/tree/master/nfnets>
 
 ### A Review on Deep Learning in UAV Remote Sensing-无人机遥感深度学习研究综述*  
 
-paper: [site](https://arxiv.org/abs/2101.10861)    
+paper: [arxiv](https://arxiv.org/abs/2101.10861)    
 title: 深度学习在无人机遥感中的应用。  
 abstract: 深度神经网络（Deep Neural Networks，DNNs）以惊人的能力从数据中学习表示，在处理图像、时间序列、自然语言、音频、视频等方面取得了重大突破。在遥感领域，已经进行了专门涉及DNNs算法应用的调查和文献修订，试图总结其子领域产生的信息量。近年来，基于无人机的应用已成为航空遥感研究的主流。然而，结合“深度学习”和“无人机遥感”主题的文献修订尚未进行。我们的工作的动机是提出一个全面的审查基础上的深入学习（DL）应用于无人机为基础的图像。我们主要集中在描述分类和回归技术在最近的应用与无人机获得的数据。为此，共有232篇论文发表在国际科学期刊数据库进行了审查。我们收集了已发表的材料，并评估了它们在应用、传感器和所用技术方面的特点。我们叙述了DL如何呈现出有希望的结果，并具有处理基于无人机的图像数据相关任务的潜力。最后，我们展望了未来的发展前景，并对无人机遥感领域有待探索的重要DL路径进行了评述。我们的修订版包括一个友好的方法来介绍、评论和总结基于无人机的图像应用的最新技术，在不同的遥感子领域使用DNNs算法，将其分组在环境、城市和农业环境中。
 
 
 ### Occlusion Handling in Generic Object Detection: A Review-一般目标检测中的遮挡处理* 
 
-paper: [site](https://arxiv.org/abs/2101.08845)  
+paper: [arxiv](https://arxiv.org/abs/2101.08845)  
 title: 遮挡目标检测-综述  
 abstract: 深度学习网络的巨大威力导致了目标检测的巨大发展。在过去的几年中，目标检测器框架在准确性和效率方面都取得了巨大的成功。然而，由于多种因素的影响，它们的能力与人类相差甚远，遮挡就是其中之一。由于遮挡可能发生在不同的位置、比例和比例，因此很难处理。在这篇论文中，我们讨论了在室外和室内场景中一般目标检测中遮挡处理的挑战，然后我们参考了最近为克服这些挑战而开展的工作。最后，我们讨论了未来可能的研究方向。
 
@@ -88,12 +88,12 @@ abstract: 深度学习网络的巨大威力导致了目标检测的巨大发展�
 site: <https://github.com/extreme-assistant/survey-computer-vision#1>  
 
 ### Vision Meets Drones: Past, Present and Future-无人机:过去、现在和未来*  
-paper: [paper](https://arxiv.org/abs/2001.06303)  
+paper: [arxiv](https://arxiv.org/abs/2001.06303)  
 dataset,result: [dataset, result](https://github.com/VisDrone/VisDrone-Dataset)  
 abstract: 无人机，或称普通无人机，配备有摄像头，已经被快速部署，有着广泛的应用，包括农业、航空摄影和监视。因此，自动理解从无人机收集的视觉数据变得非常高的要求，使计算机视觉和无人机越来越密切。为了促进和跟踪目标检测和跟踪算法的发展，我们与ECCV 2018和ICCV 2019联合举办了两次挑战研讨会，吸引了全球100多个团队参加。我们提供了一个大规模的无人机捕获数据集VisDrone，它包括四个跟踪，即：（1）图像目标检测，（2）视频目标检测，（3）单目标跟踪，和（4）多目标跟踪。在本文中，我们首先对目标检测和跟踪数据集和基准进行了全面的回顾，并讨论了收集基于无人机的大规模目标检测和跟踪数据集的挑战。之后，我们描述了我们的VisDrone数据集，该数据集从北到南在中国14个不同城市的不同城市/郊区采集。作为迄今为止发布的最大的此类数据集，VisDrone能够对drone平台上的视觉分析算法进行广泛的评估和调查。本文详细分析了无人机大规模目标检测与跟踪领域的现状，总结了存在的问题，并提出了今后的发展方向。我们预计，该基准将大大推动无人机平台视频分析的研发。
 
 ### 2020-Deep Domain Adaptive Object Detection: a Survey-深域自适应目标检测综述 
-paper: [site](https://arxiv.org/abs/2002.06797)  
+paper: [arxiv](https://arxiv.org/abs/2002.06797)  
 title: 深度域适应目标检测  
 本文共梳理了46篇相关文献.  
 基于深度学习(DL)的目标检测已经取得了很大的进展，这些方法通常假设有大量的带标签的训练数据可用，并且训练和测试数据从相同的分布中提取。  
@@ -102,7 +102,7 @@ title: 深度域适应目标检测
 
 
 ### 2020-Foreground-Background Imbalance Problem in Deep Object Detectors: A Review*  
-paper: [site](https://arxiv.org/abs/2006.09238)  
+paper: [arxiv](https://arxiv.org/abs/2006.09238)  
 深度目标检测器中前景-背景不平衡问题综述  
 本文研究了不平衡问题解决方案的最新进展。  
 分析了包括一阶段和两阶段在内的各种深度检测器中不平衡问题的特征。  
@@ -118,12 +118,12 @@ paper: [site](https://arxiv.org/abs/2006.09238)
 
 
 ### 2020-A Review and Comparative Study on Probabilistic Object Detection in Autonomous Driving*  
-paper: [site](https://arxiv.org/abs/2011.10671)      
+paper: [arxiv](https://arxiv.org/abs/2011.10671)      
 自动驾驶中的概率目标检测方法综述与比较研究   
 
 
 ### 2020-Camouflaged Object Detection and Tracking: A Survey*  
-paper: [site](https://arxiv.org/abs/2012.13581)  
+paper: [arxiv](https://arxiv.org/abs/2012.13581)  
 伪装目标检测与跟踪研究综述    
 运动目标的检测和跟踪应用于各个领域，包括监视，异常检测，车辆导航等。  
 本文从理论角度回顾了基于计算机视觉算法的现有伪装目标检测和跟踪技术.    
@@ -131,7 +131,7 @@ paper: [site](https://arxiv.org/abs/2012.13581)
 
 
 ### 2020-无人机-Correlation Filter for UAV-Based Aerial Tracking: A Review and Experimental Evaluation*  
-paper: [site](https://arxiv.org/abs/2010.06255)   
+paper: [arxiv](https://arxiv.org/abs/2010.06255)   
 相关过滤无人机空中跟踪技术综述与实验评估    
 基于DCF的跟踪器的基本框架。  
 总结了20种基于DCF的最新跟踪器。  
@@ -193,7 +193,7 @@ abstract: 在本文中，我们提出了一个大规模的视觉目标检测和�
 
 
 ### 2019-Imbalance Problems in Object Detection: A Review
-[site](https://arxiv.org/abs/1909.00169)  
+paper: [arxiv](https://arxiv.org/abs/1909.00169)  
 title: 目标检测中的不平衡问题   
 abstract：本文综述了目标检测中的不平衡问题。为了系统地分析问题，我们引入了基于问题的分类法。按照这个分类法，我们深入讨论每个问题，并在文献中提出一个统一但关键的解决方案。此外，我们还确定了有关现有不平衡问题的主要未决问题以及以前没有讨论过的不平衡问题。此外，为了使我们的评论保持最新，我们提供了一个随附的网页，根据我们基于问题的分类法，对解决不平衡问题的论文进行分类。  
 最新进展：<https://github.com/kemaloksuz/ObjectDetectionImbalance>
