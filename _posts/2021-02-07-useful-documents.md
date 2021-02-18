@@ -53,6 +53,12 @@ SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training�
 
 ## 2021-object detection & drones related  
 
+### Joint Object Detection and Multi-Object Tracking with Graph Neural Networks-基于图神经网络的联合目标检测与多目标跟踪  
+paper: [arxiv](https://arxiv.org/abs/2006.13164)  
+code: [github](https://github.com/yongxinw/GSDT)  
+project website: [site](http://www.xinshuoweng.com/projects/GNNDetTrk/)  
+Homepage of Xinshuo Weng: [Xinshuo Weng](http://www.xinshuoweng.com/)  
+abstract: 目标检测和数据关联是多目标跟踪系统的关键组成部分。尽管这两个组件是相互依赖的，但是之前的工作通常会分别设计检测和数据关联模块，这些模块的训练目标不同。因此，我们不能反向传播梯度并优化整个MOT系统，从而导致次优性能。为了解决这个问题，最近的工作在联合MOT框架下同时优化了检测和数据关联模块，这两个模块的性能都有所提高。在这项工作中，我们提出了一个新的基于图神经网络（GNNs）的联合MOT方法。其核心思想是GNNs能够在空间和时间域上对不同大小的对象之间的关系进行建模，这对于学习用于检测和数据关联的鉴别特征是必不可少的。通过在MOT数据集上的大量实验，我们证明了基于GNN的联合MOT方法的有效性，并展示了检测和MOT任务的最新性能。  
 
 ### High-Performance Large-Scale Image Recognition Without Normalization-无归一化的高性能大规模图像识别* 
 
@@ -117,25 +123,20 @@ paper: [arxiv](https://arxiv.org/abs/2006.09238)
 
 
 
-### 2020-A Review and Comparative Study on Probabilistic Object Detection in Autonomous Driving*  
-paper: [arxiv](https://arxiv.org/abs/2011.10671)      
-自动驾驶中的概率目标检测方法综述与比较研究   
+### 2020-A Review and Comparative Study on Probabilistic Object Detection in Autonomous Driving* - 自动驾驶中的概率目标检测方法综述与比较研究   
+paper: [arxiv](https://arxiv.org/abs/2011.10671)    
+code: [github](https://github.com/asharakeh/pod_compare)  
+abstract: 捕获目标检测中的不确定性对于安全自主驾驶是必不可少的。近年来，深度学习已成为目标检测的实际方法，许多概率目标检测器被提出。然而，对于深部目标检测中的不确定性估计还没有总结，现有的方法不仅采用不同的网络结构和不确定性估计方法，而且在不同的数据集上进行评估，评估指标范围很广。因此，方法之间的比较仍然具有挑战性，选择最适合特定应用的模型也是如此。本文旨在通过对现有自主驾驶应用中的概率目标检测方法进行回顾和比较研究来缓解这一问题。首先，我们概述了深度学习中的一般不确定性估计，然后系统地综述了现有的概率目标检测方法和评价指标。接下来，我们对基于图像检测器和三个公共自动驾驶数据集的概率目标检测进行了严格的比较研究。最后，我们提出了一个剩余的挑战和未来工作的讨论。  
 
-
-### 2020-Camouflaged Object Detection and Tracking: A Survey*  
+### 2020-Camouflaged Object Detection and Tracking: A Survey* - 伪装目标检测与跟踪研究综述   
 paper: [arxiv](https://arxiv.org/abs/2012.13581)  
-伪装目标检测与跟踪研究综述    
-运动目标的检测和跟踪应用于各个领域，包括监视，异常检测，车辆导航等。  
-本文从理论角度回顾了基于计算机视觉算法的现有伪装目标检测和跟踪技术.    
+abstract: 运动目标检测与跟踪有着广泛的应用，包括监视、异常检测、车辆导航等。关于运动目标检测与跟踪的文献非常丰富，已有一些重要的综述论文。然而，由于问题的复杂性，对伪装目标检测与跟踪的研究受到限制。现有的研究都是基于伪装物体的生物学特性或计算机视觉技术。在这篇文章中，我们回顾了现有的伪装目标检测和跟踪技术，利用计算机视觉算法从理论的角度。本文还讨论了一些感兴趣的问题以及今后的研究方向。我们希望这篇综述能帮助读者了解伪装目标检测和跟踪的最新进展。  
 
 
 
-### 2020-无人机-Correlation Filter for UAV-Based Aerial Tracking: A Review and Experimental Evaluation*  
+### 2020-无人机-Correlation Filter for UAV-Based Aerial Tracking: A Review and Experimental Evaluation* - 相关过滤无人机空中跟踪技术综述与实验评估  
 paper: [arxiv](https://arxiv.org/abs/2010.06255)   
-相关过滤无人机空中跟踪技术综述与实验评估    
-基于DCF的跟踪器的基本框架。  
-总结了20种基于DCF的最新跟踪器。  
-UAV123，UAV123_10fps，UAV20L，UAVDT，DTB70和VisDrone2019-SOT。
+abstract: 航空跟踪是遥感领域最活跃的应用之一，它表现出无所不在的奉献精神和卓越的性能。特别是基于无人机的遥感系统，具有视觉跟踪的特点，在航空、导航、农业、交通、公安等领域得到了广泛的应用，是未来航空遥感的主要技术之一。然而，由于现实世界的繁重环境，如严酷的外部挑战、无人机机械结构的振动（特别是在强风条件下）、复杂环境下的机动飞行以及机载有限的计算资源等，精确性、鲁棒性和高效率都是无人机机载跟踪的关键方法。近年来，基于区分相关滤波器（DCF）的跟踪器以其高计算效率和单CPU鲁棒性在无人机视觉跟踪领域得到了蓬勃发展。本文首先对基于DCF的跟踪器的基本框架进行了概括，在此基础上，根据各自的创新点，有序地总结出23种最新的基于DCF的跟踪器，以解决各种问题。此外，在各种主流的无人机跟踪基准上进行了详尽的定量实验，如UAV123，UAV123，每秒10帧、UAV20L、UAVDT、DTB70、VISSOT，共371903帧。实验结果表明了该方法的有效性，验证了该方法的可行性，并验证了目前基于DCF的无人机跟踪跟踪器所面临的挑战。
 
 
 
