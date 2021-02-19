@@ -19,7 +19,6 @@ backbones: ResNet ResNeXt VGG HRNet RegNet Res2Net
 ## 物体检测中的小物体问题  
 
 物体检测中的小物体问题  [极市平台](https://zhuanlan.zhihu.com/p/345905644)  
-
 + 提高图像拍摄分辨率
 + 增加模型的输入分辨率
 + 平铺图片
@@ -141,7 +140,24 @@ abstract: 航空跟踪是遥感领域最活跃的应用之一，它表现出无�
 
 
 ## 2019-object detection  
-2019年4篇目标检测算法最佳综述: [CVer](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247493715&idx=3&sn=3f684b51a604cc5d4878a5716aaf2b3f&chksm=f9a19adcced613caa3eef7240dfbf00e866ece9f1ce48366b63984620d1512f16a921ccdb7cf&scene=21#wechat_redirect)
+2019年4篇目标检测算法最佳综述: [CVer](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247493715&idx=3&sn=3f684b51a604cc5d4878a5716aaf2b3f&chksm=f9a19adcced613caa3eef7240dfbf00e866ece9f1ce48366b63984620d1512f16a921ccdb7cf&scene=21#wechat_redirect)  
+1. Object Detection in 20 Years: A Survey  
+时间：2019年5月  
+作者：密歇根大学&北航&卡尔顿大学&滴滴出行  
+paper：[arxiv](https://arxiv.org/abs/1905.05055)  
+2. A Survey of Deep Learning-based Object Detection  
+时间：2019年7月  
+作者：西安电子科技大学  
+paper：[arxiv](https://arxiv.org/abs/1907.09408)  
+3. Recent Advances in Deep Learning for Object Detection  
+时间：2019年8月  
+作者：新加坡管理大学&Salesforce  
+paper：[arxiv](https://arxiv.org/abs/1908.03673)
+4. Imbalance Problems in Object Detection: A Review  
+title: 目标检测中的不平衡问题   
+paper: [arxiv](https://arxiv.org/abs/1909.00169)   
+abstract：本文综述了目标检测中的不平衡问题。为了系统地分析问题，我们引入了基于问题的分类法。按照这个分类法，我们深入讨论每个问题，并在文献中提出一个统一但关键的解决方案。此外，我们还确定了有关现有不平衡问题的主要未决问题以及以前没有讨论过的不平衡问题。此外，为了使我们的评论保持最新，我们提供了一个随附的网页，根据我们基于问题的分类法，对解决不平衡问题的论文进行分类。  
+最新进展：<https://github.com/kemaloksuz/ObjectDetectionImbalance>
 
 
 ### 重读 CenterNet  
@@ -191,13 +207,6 @@ abstract：目标检测是计算机视觉中一个基本的视觉识别问题，
 paper: [paper](https://arxiv.org/abs/1804.07437)  
 abstract: 在本文中，我们提出了一个大规模的视觉目标检测和跟踪基准，名为VisDrone2018，旨在推进无人机平台上的视觉理解任务。基准中的图像和视频序列是在中国14个不同城市的不同城市/郊区从北到南拍摄的。具体来说，VisDrone2018包含263个视频片段和10209个图像（与视频片段没有重叠），具有丰富的注释，包括对象边界框、对象类别、遮挡、截断比率等。通过大量的工作，我们的基准测试在179264个图像/视频帧中有超过250万个注释实例。作为迄今为止公布的最大的此类数据集，基准能够对无人机平台上的视觉分析算法进行广泛的评估和调查。特别地，我们设计了四个比较流行的任务，包括图像中的目标检测、视频中的目标检测、单目标跟踪和多目标跟踪。由于遮挡、大尺度和姿态变化以及快速运动等因素的影响，所有这些任务在所提出的数据集中都是极具挑战性的。我们希望这个基准能极大地推动无人机平台视觉分析的研究与开发。  
 
-
-
-### 2019-Imbalance Problems in Object Detection: A Review
-paper: [arxiv](https://arxiv.org/abs/1909.00169)  
-title: 目标检测中的不平衡问题   
-abstract：本文综述了目标检测中的不平衡问题。为了系统地分析问题，我们引入了基于问题的分类法。按照这个分类法，我们深入讨论每个问题，并在文献中提出一个统一但关键的解决方案。此外，我们还确定了有关现有不平衡问题的主要未决问题以及以前没有讨论过的不平衡问题。此外，为了使我们的评论保持最新，我们提供了一个随附的网页，根据我们基于问题的分类法，对解决不平衡问题的论文进行分类。  
-最新进展：<https://github.com/kemaloksuz/ObjectDetectionImbalance>
 
 
 
