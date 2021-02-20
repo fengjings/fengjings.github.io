@@ -231,7 +231,11 @@ no-reference IQA (NR-IQA)
 + database
 
 
+## others
 
+### 2019-The Transformer Family-9种Transformer结构
+site: [极市平台](https://zhuanlan.zhihu.com/p/351715527)
+eng site: [github.io](https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html#locality-sensitive-hashing-reformer)
 
 
 
