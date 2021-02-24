@@ -92,6 +92,11 @@ abstract: 深度学习网络的巨大威力导致了目标检测的巨大发展�
 ## 2020-object detection  
 site: <https://github.com/extreme-assistant/survey-computer-vision#1>  
 
+### YOLO：YOLOv1,YOLOv2,YOLOv3,TinyYOLO，YOLOv4,YOLOv5详解  
+site: [zhihu](https://zhuanlan.zhihu.com/p/136382095)
+
+
+
 ### Vision Meets Drones: Past, Present and Future-无人机:过去、现在和未来*  
 paper: [arxiv](https://arxiv.org/abs/2001.06303)  
 dataset,result: [dataset, result](https://github.com/VisDrone/VisDrone-Dataset)  
@@ -137,7 +142,10 @@ abstract: 运动目标检测与跟踪有着广泛的应用，包括监视、异�
 paper: [arxiv](https://arxiv.org/abs/2010.06255)   
 abstract: 航空跟踪是遥感领域最活跃的应用之一，它表现出无所不在的奉献精神和卓越的性能。特别是基于无人机的遥感系统，具有视觉跟踪的特点，在航空、导航、农业、交通、公安等领域得到了广泛的应用，是未来航空遥感的主要技术之一。然而，由于现实世界的繁重环境，如严酷的外部挑战、无人机机械结构的振动（特别是在强风条件下）、复杂环境下的机动飞行以及机载有限的计算资源等，精确性、鲁棒性和高效率都是无人机机载跟踪的关键方法。近年来，基于区分相关滤波器（DCF）的跟踪器以其高计算效率和单CPU鲁棒性在无人机视觉跟踪领域得到了蓬勃发展。本文首先对基于DCF的跟踪器的基本框架进行了概括，在此基础上，根据各自的创新点，有序地总结出23种最新的基于DCF的跟踪器，以解决各种问题。此外，在各种主流的无人机跟踪基准上进行了详尽的定量实验，如UAV123，UAV123，每秒10帧、UAV20L、UAVDT、DTB70、VISSOT，共371903帧。实验结果表明了该方法的有效性，验证了该方法的可行性，并验证了目前基于DCF的无人机跟踪跟踪器所面临的挑战。
 
-
+### 2020-D2Det: Towards High Quality Object Detection and Instance Segmentation (CVPR2020) - D2Det：迈向高质量目标检测和实例分割  
+paper: [cvf](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_D2Det_Towards_High_Quality_Object_Detection_and_Instance_Segmentation_CVPR_2020_paper.pdf)  
+code: [github](https://github.com/JialeCao001/D2Det)  
+abstract: 我们提出了一种新颖的两阶段检测方法D2Det，它同时解决了精确定位和精确分类问题。为了精确定位，我们引入了一种稠密局部回归，它可以预测对象的多个稠密盒偏移量。与传统的回归和基于关键点的两级检测器定位不同，我们的稠密局部回归不局限于一个固定区域内的一组量化关键点，并且能够回归位置敏感的实数稠密偏移量，从而实现更精确的定位。通过二元重叠预测策略进一步改进了稠密局部回归，减少了背景区域对最终盒回归的影响。为了准确分类，我们引入了一种区分性RoI池方案，该方案从一个方案的不同子区域采样，并进行自适应加权以获得区分性特征。  
 
 ## 2019-object detection  
 2019年4篇目标检测算法最佳综述: [CVer](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247493715&idx=3&sn=3f684b51a604cc5d4878a5716aaf2b3f&chksm=f9a19adcced613caa3eef7240dfbf00e866ece9f1ce48366b63984620d1512f16a921ccdb7cf&scene=21#wechat_redirect)  
@@ -237,8 +245,9 @@ no-reference IQA (NR-IQA)
 site: [极市平台](https://zhuanlan.zhihu.com/p/351715527)
 eng-site: [github.io](https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html#locality-sensitive-hashing-reformer)
 
-
-
-
+### Transformer一篇就够了  
+site: [zhihu-Transformer 一篇就够了（一）： Self-attenstion](https://zhuanlan.zhihu.com/p/345680792)  
+site: [Transformer 一篇就够了（二）： Transformer中的Self-attenstion](https://zhuanlan.zhihu.com/p/347492368)  
+site: [Transformer 一篇就够了（三）： Transformer的实现](https://zhuanlan.zhihu.com/p/347709112)  
 
 
