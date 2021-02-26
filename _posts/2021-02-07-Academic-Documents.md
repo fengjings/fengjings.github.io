@@ -52,6 +52,13 @@ SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training�
 
 ## 2021-object detection & drones related  
 
+
+### 搞懂Vision Transformer 原理和代码，看这篇技术综述就够了(三)  
+paper: [极市平台](https://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247541453&idx=1&sn=f9dfe3bcf5e85b413ce1543178681e1e&chksm=ec1ccf34db6b4622badf7244b6ef6c8809b20a1c60faefb3937822f087f93d27ed019b45907c&scene=126&sessionid=1614348438&key=55fcbf4895711c4cec7706b39b38fe68cd74243085e382c11d72400de8cff24ac8be7967f469dfb2f150baf45c31be54f332d6473f18aad9e7222f39a825ffac29f78a90c0123947e90518a0e20e3556ccbcd71a386b9094979523b95d7245e530fde6a208f11eea68921ed3d003c04ba929599e581038ac8d8698accb44ef03&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AS7FJS83MKtw33j8DSIzGVA%3D&pass_ticket=caqTEofVyPZMshcjyLW15l2KOXZ1r4CagsHm3bslDdBCy4fLyu7NiGBPmfRV9Sj9&wx_header=0)
+
+
+
+
 ### 2021-Object Detection in Aerial Images:A Large-Scale Benchmark and Challenges-空中目标检测影像：大比例尺基准和挑战  
 paper:[arxiv](https://arxiv.org/abs/2102.12219)  
 Benchmarks for Object Detection in Aerial Images: [github](https://github.com/dingjiansw101/AerialDetection)  
