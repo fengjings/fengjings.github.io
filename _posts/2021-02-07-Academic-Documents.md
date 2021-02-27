@@ -52,6 +52,10 @@ SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training�
 
 ## 2021-object detection & drones related  
 
+### Simple multi-dataset detection-简单的多数据集检测  
+paper:[arxiv](https://arxiv.org/abs/2102.13086)  
+code: [github](https://github.com/xingyizhou/UniDet)  
+abstract: 如何建立一个通用的、广泛的目标检测系统？我们使用所有标注过的概念的所有标签。这些标签跨越具有潜在不一致分类的不同数据集。本文提出了一种在多个大规模数据集上训练统一检测器的简单方法。我们使用特定于数据集的训练协议和损失，但与特定于数据集的输出共享一个公共检测体系结构。我们将展示如何将这些特定于数据集的输出自动集成到一个通用的语义分类中。与以前的工作不同，我们的方法不需要手动协调分类法。我们的多数据集检测器在每个训练域上的性能与数据集特定的模型一样好，但在新的未知域上的泛化效果更好。基于该方法的条目在eccv2020鲁棒视觉挑战赛的目标检测和实例分割中排名第一。  
 
 ### 搞懂Vision Transformer 原理和代码，看这篇技术综述就够了(三)  
 paper: [极市平台](https://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247541453&idx=1&sn=f9dfe3bcf5e85b413ce1543178681e1e&chksm=ec1ccf34db6b4622badf7244b6ef6c8809b20a1c60faefb3937822f087f93d27ed019b45907c&scene=126&sessionid=1614348438&key=55fcbf4895711c4cec7706b39b38fe68cd74243085e382c11d72400de8cff24ac8be7967f469dfb2f150baf45c31be54f332d6473f18aad9e7222f39a825ffac29f78a90c0123947e90518a0e20e3556ccbcd71a386b9094979523b95d7245e530fde6a208f11eea68921ed3d003c04ba929599e581038ac8d8698accb44ef03&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AS7FJS83MKtw33j8DSIzGVA%3D&pass_ticket=caqTEofVyPZMshcjyLW15l2KOXZ1r4CagsHm3bslDdBCy4fLyu7NiGBPmfRV9Sj9&wx_header=0)
@@ -249,6 +253,7 @@ site: [极市平台](https://zhuanlan.zhihu.com/p/351715527)
 eng-site: [github.io](https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html#locality-sensitive-hashing-reformer)
 
 ### Transformer一篇就够了  
+github:[github](https://github.com/BSlience/transformer-all-in-one)  
 site: [zhihu-Transformer 一篇就够了（一）： Self-attenstion](https://zhuanlan.zhihu.com/p/345680792)  
 site: [Transformer 一篇就够了（二）： Transformer中的Self-attenstion](https://zhuanlan.zhihu.com/p/347492368)  
 site: [Transformer 一篇就够了（三）： Transformer的实现](https://zhuanlan.zhihu.com/p/347709112)  
