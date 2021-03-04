@@ -52,6 +52,11 @@ SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training�
 
 ## 2021-object detection & drones related  
 
+### Towards Open World Object Detection-开放世界目标检测(CVPR2021)  
+paper:[arxiv](https://arxiv.org/abs/2103.02603)  
+code: [github](https://github.com/JosephKJ/OWOD)  
+abstract: 人类有识别环境中未知物体实例的本能。当相应的知识最终可用时，对这些未知实例的内在好奇心有助于了解它们。这促使我们提出了一个新的计算机视觉问题，称为“开放世界目标检测”，模型的任务是：1）在没有明确监督的情况下，将尚未引入的目标识别为“未知”，2）逐步学习这些已识别的未知类别，而不忘记以前学习的类，当相应的标签逐渐收到时。本文提出了一种基于对比聚类和基于能量的未知识别的开放世界目标检测算法。我们的实验评估和烧蚀研究分析了矿石在实现开放世界目标方面的功效。作为一个有趣的副产品，我们发现识别和描述未知实例有助于减少增量对象检测设置中的混淆，在增量对象检测设置中，我们实现了最先进的性能，而无需额外的方法学努力。我们希望，我们的工作将吸引进一步研究这个新确定的，但至关重要的研究方向。  
+
 ### Simple multi-dataset detection-简单的多数据集检测  
 paper:[arxiv](https://arxiv.org/abs/2102.13086)  
 code: [github](https://github.com/xingyizhou/UniDet)  
