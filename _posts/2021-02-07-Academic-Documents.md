@@ -52,6 +52,11 @@ SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training�
 
 ## 2021-object detection & drones related  
 
+### Data Augmentation for Object Detection via Differentiable Neural Rendering-基于可微神经绘制的目标检测数据增强方法
+paper:[arxiv](https://arxiv.org/abs/2103.02852)  
+code: [github](https://github.com/Guanghan/DANR)  
+abstract: 在缺少注释数据的情况下，训练一个鲁棒的目标检测器是一个挑战。现有的解决这一问题的方法包括半监督学习（从未标记数据中插入标记数据）和自监督学习（通过借口任务利用未标记数据中的信号）。在不改变有监督学习范式的前提下，本文提出了一种离线数据增强的目标检测方法，该方法对训练数据进行语义插值。具体来说，我们提出的系统基于可微神经渲染生成训练图像的可控视图，以及相应的边界框标注，不需要人工干预。首先，在估计深度图的同时，提取像素对齐的图像特征并投影到点云中。然后，我们用一个目标相机姿势重新投影它们，并呈现一个新的视图2d图像。在点云中标记关键点形式的对象，以恢复新视图中的注释。该方法与仿射变换、图像融合等在线数据增强方法完全兼容。大量实验表明，该方法作为一种无成本的图像和标签增强工具，能够显著提高训练数据匮乏的目标检测系统的性能。  
+
 ### Towards Open World Object Detection-开放世界目标检测(CVPR2021)  
 paper:[arxiv](https://arxiv.org/abs/2103.02603)  
 code: [github](https://github.com/JosephKJ/OWOD)  
