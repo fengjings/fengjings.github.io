@@ -181,6 +181,11 @@ paper: [cvf](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_D2Det_To
 code: [github](https://github.com/JialeCao001/D2Det)  
 abstract: 我们提出了一种新颖的两阶段检测方法D2Det，它同时解决了精确定位和精确分类问题。为了精确定位，我们引入了一种稠密局部回归，它可以预测对象的多个稠密盒偏移量。与传统的回归和基于关键点的两级检测器定位不同，我们的稠密局部回归不局限于一个固定区域内的一组量化关键点，并且能够回归位置敏感的实数稠密偏移量，从而实现更精确的定位。通过二元重叠预测策略进一步改进了稠密局部回归，减少了背景区域对最终盒回归的影响。为了准确分类，我们引入了一种区分性RoI池方案，该方案从一个方案的不同子区域采样，并进行自适应加权以获得区分性特征。  
 
+### 2020-It's Raining Cats or Dogs? Adversarial Rain Attack on DNN Perception-感知对雨天情况的对抗攻击
+paper: [arxiv](https://arxiv.org/abs/2009.09205)  
+code: [No official code]  
+abstract: 降雨是自然界中的一种普遍现象，也是许多基于深度神经网络（DNN）的感知系统的重要因素。雨水通常会带来不可避免的威胁，必须谨慎应对，尤其是在安全和安保敏感的情况下（例如，自动驾驶）。因此，全面调查降雨对DNN的潜在风险具有重要意义。不幸的是，在实践中，通常很难收集或合成能够代表现实世界中可能发生的所有降雨情况的降雨图像。为此，本文从一个新的视角出发，提出将两种完全不同的研究结合起来，即雨天图像合成和对抗攻击。我们提出了一种对抗性的降雨攻击方法，利用这种方法，我们可以在部署的DNNs的指导下模拟各种降雨情况，揭示降雨可能带来的潜在威胁因素，从而开发出更具降雨鲁棒性的DNNs。特别地，我们提出了一种基于因子感知的降雨生成方法，该方法根据摄像机的曝光过程来模拟降雨过程，并对可学习的降雨因子进行了建模。利用该生成器，我们进一步提出了针对图像分类和目标检测的对抗性雨水攻击，其中雨水因子由各种DNN引导。因此，可以全面研究降雨因素对DNNs的影响。我们对三个数据集，即NoRIP'17DEV，MS COCO和KITTI进行了大规模的评估，表明我们合成的雨滴图像不仅能够呈现视觉真实的外观，而且还表现出较强的对抗能力，这为进一步的雨鲁棒感知研究奠定了基础。  
+
 ## 2019-object detection  
 2019年4篇目标检测算法最佳综述: [CVer](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247493715&idx=3&sn=3f684b51a604cc5d4878a5716aaf2b3f&chksm=f9a19adcced613caa3eef7240dfbf00e866ece9f1ce48366b63984620d1512f16a921ccdb7cf&scene=21#wechat_redirect)  
 1. Object Detection in 20 Years: A Survey  
