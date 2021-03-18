@@ -78,6 +78,13 @@ paper:[arxiv](https://arxiv.org/abs/2102.04686)
 code: [not provided]  
 abstract: 在本文中，我们提出了一种新的技术，将自动图像分析应用于结构腐蚀监测领域，并证明了与现有方法相比改进的有效性。结构腐蚀监测是基于风险的维护理念的初始步骤，取决于工程师对建筑物故障风险的评估，该评估与维护的财政成本相平衡。这就带来了人为错误的机会，当仅限于使用无人驾驶飞机捕获的图像对由于许多背景噪声而无法到达的区域进行评估时，人为错误会变得更加复杂。这个问题的重要性促进了一个积极的研究团体，旨在通过使用人工智能（AI）图像分析进行腐蚀检测来支持工程师。在本文中，我们通过开发一个框架corredetor来推进这一领域的研究。CorrDetector采用卷积神经网络（CNNs）支持的集成深度学习方法进行结构识别和腐蚀特征提取。我们使用无人机拍摄的复杂结构（如电信塔）的真实图像进行经验评估，这是工程师的典型场景。我们的研究表明\model的集成方法在分类准确率方面显著优于现有的方法。  
 
+### You Only Look One-level Feature-只看一层特征
+paper:[arxiv](https://arxiv.org/abs/2103.09460)  
+code: [github-chensnathan](https://github.com/chensnathan/YOLOF)  
+[official-github-megvii-model](https://github.com/megvii-model/YOLOF)  
+abstract: 本文回顾了用于一级检测器的特征金字塔网络（FPN），指出FPN的成功是由于它对目标检测优化问题的分而治之的解决，而不是多尺度特征融合。从优化的角度出发，我们引入了一种替代方法来解决这个问题，而不是采用复杂的特征金字塔。基于简单而高效的解决方案，我们为您呈现的只是一级功能（YOLOF）。在我们的方法中，提出了两个关键的组成部分：扩展编码器和均匀匹配，并带来了相当大的改进。在COCO基准上的大量实验证明了该模型的有效性。我们的YOLOF与它的特征金字塔对应的RetinaNet取得了相当的结果，同时速度快了2.5倍。在没有 transformer layers的情况下，YOLOF可以以单级特征匹配DETR的性能，只需7×更少的训练周期。YOLOF的图像尺寸为608×608，在2080Ti上以60fps的速度获得44.3mAP，比YOLOv4快13%。   
+
+
 ### Data Augmentation for Object Detection via Differentiable Neural Rendering-基于可微神经绘制的目标检测数据增强方法
 paper:[arxiv](https://arxiv.org/abs/2103.02852)  
 code: [github](https://github.com/Guanghan/DANR)  
