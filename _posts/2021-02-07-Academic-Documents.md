@@ -82,6 +82,7 @@ abstract: 在本文中，我们提出了一种新的技术，将自动图像分�
 paper:[arxiv](https://arxiv.org/abs/2103.09460)  
 code: [github-chensnathan](https://github.com/chensnathan/YOLOF)  
 [official-github-megvii-model](https://github.com/megvii-model/YOLOF)  
+说明1：[极市平台](https://zhuanlan.zhihu.com/p/358144493)  
 abstract: 本文回顾了用于一级检测器的特征金字塔网络（FPN），指出FPN的成功是由于它对目标检测优化问题的分而治之的解决，而不是多尺度特征融合。从优化的角度出发，我们引入了一种替代方法来解决这个问题，而不是采用复杂的特征金字塔。基于简单而高效的解决方案，我们为您呈现的只是一级功能（YOLOF）。在我们的方法中，提出了两个关键的组成部分：扩展编码器和均匀匹配，并带来了相当大的改进。在COCO基准上的大量实验证明了该模型的有效性。我们的YOLOF与它的特征金字塔对应的RetinaNet取得了相当的结果，同时速度快了2.5倍。在没有 transformer layers的情况下，YOLOF可以以单级特征匹配DETR的性能，只需7×更少的训练周期。YOLOF的图像尺寸为608×608，在2080Ti上以60fps的速度获得44.3mAP，比YOLOv4快13%。   
 
 
