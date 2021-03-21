@@ -148,6 +148,22 @@ abstract: 深度学习网络的巨大威力导致了目标检测的巨大发展�
 ## 2020-object detection  
 site: <https://github.com/extreme-assistant/survey-computer-vision#1>  
 
+### 2020-目标检测方法部分汇总  
+zhihu-site: [百思视界](https://zhuanlan.zhihu.com/p/148272698)  
++ 效果最好的当属two-stage目标检测方法：D2Det  
++ 融合关键点检测任务提升anchor-free方法的目标检测效果：CentripetalNet: Pursuing High-quality Keypoint Pairs for Object Detection  
+paper: [arxiv](https://arxiv.org/abs/2003.09119)  
+code: [github](https://github.com/KiveeDong/CentripetalNet)  
+CVPR2020 | CentripetalNet：48.0% AP，通过获取高质量的关键点对来提升目标检测性能: [AI算法修炼营](https://mp.weixin.qq.com/s?__biz=MzI0NDYxODM5NA==&mid=2247485419&idx=1&sn=5a56388e2ccab75773b80bcbda0be240&scene=21#wechat_redirect)   
++ 使用新的网络结构提升目标检测效果：DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution   
+paper: [arxiv](https://arxiv.org/abs/2006.02334)  
+code: [github](https://github.com/joe-siyuan-qiao/DetectoRS)  
+COCO 迎来新榜首！DetectoRS以54.7mAP成就目前最高精度检测网络: [AI深度学习视线](https://mp.weixin.qq.com/s?__biz=MzIwOTM5MjYyMQ==&mid=2247485777&idx=1&sn=580e9040298bb3c1341e986529171317&scene=21#wechat_redirect)  
++ 目标检测新思路：DETR：End-to-End Object Detection with Transformers  
+paper: [arxiv](https://arxiv.org/abs/2005.12872)  
+code: [github](https://github.com/facebookresearch/detr)  
+目标检测 | Facebook开源新思路！DETR：用Transformers来进行端到端的目标检测: [AI算法修炼营](https://mp.weixin.qq.com/s?__biz=MzI0NDYxODM5NA==&mid=2247485126&idx=1&sn=339aae2a3c2160e5ccd2eb2fd7314266&scene=21#wechat_redirect)  
+
 ### YOLO：YOLOv1,YOLOv2,YOLOv3,TinyYOLO，YOLOv4,YOLOv5详解  
 site: [zhihu](https://zhuanlan.zhihu.com/p/136382095)
 
