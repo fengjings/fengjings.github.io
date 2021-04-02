@@ -81,7 +81,12 @@ abstract: 近年来，航空图像中的目标检测在计算机视觉中得到�
 
 ### Dogfight: Detecting Drones from Drones Videos-从无人机视频中检测无人机 (Accepted for CVPR 2021)  
 paper: [arxiv](https://arxiv.org/abs/2103.17242)
+code: [No official code] 
 abstract: 飞行器越来越自主和随处可见，发展检测周边目标的能力就至关重要了。无人机检测的问题有，其他无人机的运动不稳定，尺寸小，形状任意，变化幅度大以及遮挡。在这种情况下，基于区域建议的方法并不适合并不适合捕获足够有区别的前景和背景信息。同时由于尺寸小和复杂的运动，特征聚合的方法也表现不好。为了解决这个问题，本文提出了一个两阶段分割的方法，通过时空注意力机制。第一阶段，给定重叠的帧区域，使用金字塔池化在卷积特征映射上捕获详细的上下文信息，之后在特征图上像素和通道注意力被强化来保证无人机定位准确。第二阶段，验证第一阶段检测并探索新的可能的无人机位置，用运动边界来发现新位置，然后在后续几帧中跟踪候选无人机位置、长方体信息，提取3D卷积特征图以及在每个长方体内的候选无人机检测信息。方法在公开数据集上测试并好于baselines。  
+
+### EfficientNetV2: Smaller Models and Faster Training-EfficientNetV2，更小的模型和更快的训练速度
+paper: [arxiv](https://arxiv.org/abs/2104.00298)
+code: [github](https://github.com/google/automl/efficientnetv2)    
 
 ### Towards Open World Object Detection*-开放世界目标检测(CVPR2021)  
 paper:[arxiv](https://arxiv.org/abs/2103.02603)  
