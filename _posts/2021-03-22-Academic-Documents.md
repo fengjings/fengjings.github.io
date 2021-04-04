@@ -87,6 +87,8 @@ abstract: 飞行器越来越自主和随处可见，发展检测周边目标的�
 ### EfficientNetV2: Smaller Models and Faster Training-EfficientNetV2，更小的模型和更快的训练速度
 paper: [arxiv](https://arxiv.org/abs/2104.00298)
 code: [github](https://github.com/google/automl/efficientnetv2)    
+[zhihu-时隔两年，EfficientNet v2来了！更快，更小，更强](https://zhuanlan.zhihu.com/p/361947957)  
+本文是谷歌的MingxingTan与Quov V.Le对EfficientNet的一次升级，旨在保持参数量高效利用的同时尽可能提升训练速度。在EfficientNet的基础上，引入了Fused-MBConv到搜索空间中；同时为渐进式学习引入了自适应正则强度调整机制。两种改进的组合得到了本文的EfficientNetV2，它在多个基准数据集上取得了SOTA性能，且训练速度更快。比如EfficientNetV2取得了87.3%的top1精度且训练速度快5-11倍。  
 
 ### Towards Open World Object Detection*-开放世界目标检测(CVPR2021)  
 paper:[arxiv](https://arxiv.org/abs/2103.02603)  
