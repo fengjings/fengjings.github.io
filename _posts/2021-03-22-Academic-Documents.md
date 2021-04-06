@@ -135,13 +135,6 @@ code: [github](https://github.com/facebookresearch/unbiased-teacher)
 abstract: 半监督学习，即同时具有标记和未标记数据的训练网络，最近取得了重大进展。然而，现有的工作主要集中在图像分类任务上，而忽略了需要更多注释工作的目标检测。在这项工作中，我们重新审视了半监督目标检测（SS-OD）和确定伪标记偏差问题的SS-OD。为了解决这个问题，我们引入了无偏见的教师，一个简单而有效的方法，共同培养一个学生和一个逐步进步的教师在互惠互利的方式。由于过分自信的伪标签导致班级平衡下降，无偏见的教师在COCO标准、COCO附加数据和VOC数据集上不断改进最先进的方法。具体而言，当使用1%的MS-COCO标记数据时，无偏教师相对于最先进的方法实现了6.8个绝对mAP改进，当仅使用0.5%、1%、2%的MS-COCO标记数据时，相对于监督基线实现了大约10个mAP改进。  
 
 
-### 搞懂Vision Transformer 原理和代码，看这篇技术综述就够了(三)  
-paper: [极市平台](https://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247541453&idx=1&sn=f9dfe3bcf5e85b413ce1543178681e1e&chksm=ec1ccf34db6b4622badf7244b6ef6c8809b20a1c60faefb3937822f087f93d27ed019b45907c&scene=126&sessionid=1614348438&key=55fcbf4895711c4cec7706b39b38fe68cd74243085e382c11d72400de8cff24ac8be7967f469dfb2f150baf45c31be54f332d6473f18aad9e7222f39a825ffac29f78a90c0123947e90518a0e20e3556ccbcd71a386b9094979523b95d7245e530fde6a208f11eea68921ed3d003c04ba929599e581038ac8d8698accb44ef03&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AS7FJS83MKtw33j8DSIzGVA%3D&pass_ticket=caqTEofVyPZMshcjyLW15l2KOXZ1r4CagsHm3bslDdBCy4fLyu7NiGBPmfRV9Sj9&wx_header=0)
-
-
-
- 
-
 ### 2021-Joint Object Detection and Multi-Object Tracking with Graph Neural Networks-基于图神经网络的联合目标检测与多目标跟踪  
 paper: [arxiv](https://arxiv.org/abs/2006.13164)  
 code: [github](https://github.com/yongxinw/GSDT)  
@@ -350,4 +343,11 @@ site: [zhihu-Transformer 一篇就够了（一）： Self-attenstion](https://zh
 site: [Transformer 一篇就够了（二）： Transformer中的Self-attenstion](https://zhuanlan.zhihu.com/p/347492368)  
 site: [Transformer 一篇就够了（三）： Transformer的实现](https://zhuanlan.zhihu.com/p/347709112)  
 
+### 搞懂Vision Transformer 原理和代码，看这篇技术综述就够了(三)  
+paper: [极市平台](https://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247541453&idx=1&sn=f9dfe3bcf5e85b413ce1543178681e1e&chksm=ec1ccf34db6b4622badf7244b6ef6c8809b20a1c60faefb3937822f087f93d27ed019b45907c&scene=126&sessionid=1614348438&key=55fcbf4895711c4cec7706b39b38fe68cd74243085e382c11d72400de8cff24ac8be7967f469dfb2f150baf45c31be54f332d6473f18aad9e7222f39a825ffac29f78a90c0123947e90518a0e20e3556ccbcd71a386b9094979523b95d7245e530fde6a208f11eea68921ed3d003c04ba929599e581038ac8d8698accb44ef03&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AS7FJS83MKtw33j8DSIzGVA%3D&pass_ticket=caqTEofVyPZMshcjyLW15l2KOXZ1r4CagsHm3bslDdBCy4fLyu7NiGBPmfRV9Sj9&wx_header=0)
 
+### Vision Transformer 超详细解读
+Vision Transformer 超详细解读 (原理分析+代码解读) (目录)
+website: [zhihu-科技猛兽](https://zhuanlan.zhihu.com/p/348593638)
+Vision Transformer 超详细解读 (原理分析+代码解读) (一)
+website: [zhihu-科技猛兽](https://zhuanlan.zhihu.com/p/340149804)
