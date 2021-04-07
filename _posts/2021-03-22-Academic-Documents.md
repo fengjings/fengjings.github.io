@@ -259,6 +259,10 @@ paper: [arxiv](https://arxiv.org/abs/1909.00169)
 abstract：本文综述了目标检测中的不平衡问题。为了系统地分析问题，我们引入了基于问题的分类法。按照这个分类法，我们深入讨论每个问题，并在文献中提出一个统一但关键的解决方案。此外，我们还确定了有关现有不平衡问题的主要未决问题以及以前没有讨论过的不平衡问题。此外，为了使我们的评论保持最新，我们提供了一个随附的网页，根据我们基于问题的分类法，对解决不平衡问题的论文进行分类。  
 最新进展：<https://github.com/kemaloksuz/ObjectDetectionImbalance>
 
+### 2019-EfficientDet: Scalable and Efficient Object Detection
+paper: [arxiv](https://arxiv.org/abs/1911.09070)  
+code: [github](https://github.com/google/automl/tree/master/efficientdet)  
+abstract: Model efficiency has become increasingly important in computer vision. In this paper, we systematically study neural network architecture design choices for object detection and propose several key optimizations to improve efficiency. First, we propose a weighted bi-directional feature pyramid network (BiFPN), which allows easy and fast multiscale feature fusion; Second, we propose a compound scaling method that uniformly scales the resolution, depth, and width for all backbone, feature network, and box/class prediction networks at the same time. Based on these optimizations and better backbones, we have developed a new family of object detectors, called EfficientDet, which consistently achieve much better efficiency than prior art across a wide spectrum of resource constraints. In particular, with single model and single-scale, our EfficientDet-D7 achieves state-of-the-art 55.1 AP on COCO test-dev with 77M parameters and 410B FLOPs, being 4x - 9x smaller and using 13x - 42x fewer FLOPs than previous detectors.   
 
 ### 重读 CenterNet  
 说明：[新智元](https://mp.weixin.qq.com/s/hlc1IKhKLh7Zmr5k_NAykw)  
