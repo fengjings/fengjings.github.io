@@ -74,6 +74,11 @@ code: [github](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBBB)
 article: [zhihu](https://zhuanlan.zhihu.com/p/359249077)  
 code: [github](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB)  
 
+### A Vision-based System for Traffic Anomaly Detection using Deep Learning and Decision Trees-交通异常检测
+paper:[arxiv](https://arxiv.org/abs/2104.06856)  
+code: [not provided]()  
+abstract: Any intelligent traffic monitoring system must be able to detect anomalies such as traffic accidents in real time. In this paper, we propose a Decision-Tree - enabled approach powered by Deep Learning for extracting anomalies from traffic cameras while accurately estimating the start and end time of the anomalous event. Our approach included creating a detection model, followed by anomaly detection and analysis. YOLOv5 served as the foundation for our detection model. The anomaly detection and analysis step entail traffic scene background estimation, road mask extraction, and adaptive thresholding. Candidate anomalies were passed through a decision tree to detect and analyze final anomalies. The proposed approach yielded an F1 score of 0.8571, and an S4 score of 0.5686, per the experimental validation.    
+
 ### ReDet: A Rotation-equivariant Detector for Aerial Object Detection-一种用于航空目标检测的旋转等变检测器
 paper:[arxiv](https://arxiv.org/abs/2103.07733)  
 code: [github](https://github.com/csuhan/ReDet)  
