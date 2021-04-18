@@ -62,6 +62,11 @@ paper:[arxiv](https://arxiv.org/abs/2102.12219)
 Benchmarks for Object Detection in Aerial Images: [github](https://github.com/dingjiansw101/AerialDetection)  
 abstract: 近十年来，由于航空图像的鸟瞰视角导致目标的尺度和方向发生了巨大的变化，使得目标检测在自然图像中取得了显著的进展，但在航空图像中却没有取得显著的进展。更重要的是，缺乏大规模的基准成为发展航空图像目标检测（ODAI）的主要障碍。在本文中，我们提出了一个大规模的航空图像目标检测数据集（DOTA）和综合基线ODAI。提出的DOTA数据集包含了从11268幅航空图像中收集的18类定向边界框注释的1793658个对象实例。基于这一大规模的、注释良好的数据集，我们构建了包含10种最新算法的基线，配置超过70种，并对每种模型的速度和精度性能进行了评估。此外，我们还为ODAI提供了一个统一的代码库，并建立了一个测试和评估不同算法的网站。以前在DOTA上运行的挑战吸引了全球1300多个团队。我们相信，扩展的大规模DOTA数据集、广泛的基线、代码库和挑战有助于设计健壮的算法和对航空图像中目标检测问题的可重复性研究。 
 
+### A Vision-based System for Traffic Anomaly Detection using Deep Learning and Decision Trees-交通异常检测通过深度学习和决策树
+paper:[arxiv](https://arxiv.org/abs/2104.06856)  
+code: [not provided]()  
+abstract: Any intelligent traffic monitoring system must be able to detect anomalies such as traffic accidents in real time. In this paper, we propose a Decision-Tree - enabled approach powered by Deep Learning for extracting anomalies from traffic cameras while accurately estimating the start and end time of the anomalous event. Our approach included creating a detection model, followed by anomaly detection and analysis. YOLOv5 served as the foundation for our detection model. The anomaly detection and analysis step entail traffic scene background estimation, road mask extraction, and adaptive thresholding. Candidate anomalies were passed through a decision tree to detect and analyze final anomalies. The proposed approach yielded an F1 score of 0.8571, and an S4 score of 0.5686, per the experimental validation.  
+
 ### 1-DOTA遥感数据集以及相关工具DOTA_devkit的整理(踩坑记录)  
 article: [zhihu](https://zhuanlan.zhihu.com/p/355862906)  
 code: [github](https://github.com/hukaixuan19970627/DOTA_devkit_YOLO) 
