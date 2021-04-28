@@ -85,6 +85,12 @@ code: [not provided]()
 Comments: Preprint submitted to IET Computer Vision  
 abstract: Object Detection is the task of classification and localization of objects in an image or video. It has gained prominence in recent years due to its widespread applications. This article surveys recent developments in deep learning based object detectors. Concise overview of benchmark datasets and evaluation metrics used in detection is also provided along with some of the prominent backbone architectures used in recognition tasks. It also covers contemporary lightweight classification models used on edge devices. Lastly, we compare the performances of these architectures on multiple metrics.    
 
+### On the Role of Sensor Fusion for Object Detection in Future Vehicular Networks - 传感器融合用于车载网络目标检测
+paper:[arxiv](https://arxiv.org/abs/2104.11785)  
+code: [not provided]()  
+Comments: Fully autonomous driving systems require fast detection and recognition of sensitive objects in the environment. In this context, intelligent vehicles should share their sensor data with computing platforms and/or other vehicles, to detect objects beyond their own sensors' fields of view. However, the resulting huge volumes of data to be exchanged can be challenging to handle for standard communication technologies. In this paper, we evaluate how using a combination of different sensors affects the detection of the environment in which the vehicles move and operate. The final objective is to identify the optimal setup that would minimize the amount of data to be distributed over the channel, with negligible degradation in terms of object detection accuracy. To this aim, we extend an already available object detection algorithm so that it can consider, as an input, camera images, LiDAR point clouds, or a combination of the two, and compare the accuracy performance of the different approaches using two realistic datasets. Our results show that, although sensor fusion always achieves more accurate detections, LiDAR only inputs can obtain similar results for large objects while mitigating the burden on the channel.    
+
+
 ### 1-DOTA遥感数据集以及相关工具DOTA_devkit的整理(踩坑记录)  
 article: [zhihu](https://zhuanlan.zhihu.com/p/355862906)  
 code: [github](https://github.com/hukaixuan19970627/DOTA_devkit_YOLO) 
