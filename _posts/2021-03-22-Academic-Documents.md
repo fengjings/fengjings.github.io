@@ -125,6 +125,11 @@ paper: [arxiv](https://arxiv.org/abs/2103.17242)
 code: [No official code] 
 abstract: 飞行器越来越自主和随处可见，发展检测周边目标的能力就至关重要了。无人机检测的问题有，其他无人机的运动不稳定，尺寸小，形状任意，变化幅度大以及遮挡。在这种情况下，基于区域建议的方法并不适合并不适合捕获足够有区别的前景和背景信息。同时由于尺寸小和复杂的运动，特征聚合的方法也表现不好。为了解决这个问题，本文提出了一个两阶段分割的方法，通过时空注意力机制。第一阶段，给定重叠的帧区域，使用金字塔池化在卷积特征映射上捕获详细的上下文信息，之后在特征图上像素和通道注意力被强化来保证无人机定位准确。第二阶段，验证第一阶段检测并探索新的可能的无人机位置，用运动边界来发现新位置，然后在后续几帧中跟踪候选无人机位置、长方体信息，提取3D卷积特征图以及在每个长方体内的候选无人机检测信息。方法在公开数据集上测试并好于baselines。  
 
+### How to deal with small objects in object detection? - 小目标检测
+paper:[Nabil MADALI](https://medium.datadriveninvestor.com/how-to-deal-with-small-objects-in-object-detection-44d28d136cbc)  
+chinese-translate: [CVer](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247521225&idx=4&sn=5884f12902e117e86d4a386c756fa90d&chksm=f9a1e146ced66850c3819f39c80fb4bf8df25467f05f75abd8de80588e1823f400d4545e51ad&scene=126&sessionid=1619501204&key=99223045144d05721ab94ef38f55f198a36ceda4305882f9f898e34410f4ee179bc2bd7945bdfd7355c11ca7c5414111bf31494b2d873ee2e6236b26fea4ac7dbd880cdaa9e5b91ae2862a1d099868e6beed4600e3a9bfc47e1d0c0ecf92b73944b6d6e785ec003561c6b88845ed354060a66a9920c54e7210df63051adf630a&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AdmY%2FNDrxsoiD8b14NyeJ98%3D&pass_ticket=zSkE63HtyX6m34d4L9Fe33tiPXfzrHmD34kf1iGpGIaxj6RcBtryB8W2SQKVNiLO&wx_header=0)  
+abstract: In deep learning target detection, especially face detection, the detection of small targets and small faces has always been a practical and common difficult problem due to low resolution, blurred pictures, less information, and more noise . However, in the development of the past few years, some solutions to improve the performance of small target detection have also emerged. This article will analyze, organize and summarize these methods.  
+
 ### EfficientNetV2: Smaller Models and Faster Training-EfficientNetV2，更小的模型和更快的训练速度
 paper: [arxiv](https://arxiv.org/abs/2104.00298)
 code: [github](https://github.com/google/automl/efficientnetv2)    
