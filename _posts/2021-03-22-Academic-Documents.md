@@ -115,6 +115,12 @@ code: [github](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBBB)
 article: [zhihu](https://zhuanlan.zhihu.com/p/359249077)  
 code: [github](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB)  
 
+### Finding a Needle in a Haystack: Tiny Flying Object Detection in 4K Videos using a Joint Detection-and-Tracking Approach - 大海捞针：使用联合检测和跟踪方法在4K视频中检测微小飞行目标  
+paper:[arxiv](https://arxiv.org/abs/2105.08253)  
+code: [not provided]()  
+abstract: Detecting tiny objects in a high-resolution video is challenging because the visual information is little and unreliable. Specifically, the challenge includes very low resolution of the objects, MPEG artifacts due to compression and a large searching area with many hard negatives. Tracking is equally difficult because of the unreliable appearance, and the unreliable motion estimation. Luckily, we found that by combining this two challenging tasks together, there will be mutual benefits. Following the idea, in this paper, we present a neural network model called the Recurrent Correlational Network, where detection and tracking are jointly performed over a multi-frame representation learned through a single, trainable, and end-to-end network. The framework exploits a convolutional long short-term memory network for learning informative appearance changes for detection, while the learned representation is shared in tracking for enhancing its performance. In experiments with datasets containing images of scenes with small flying objects, such as birds and unmanned aerial vehicles, the proposed method yielded consistent improvements in detection performance over deep single-frame detectors and existing motion-based detectors. Furthermore, our network performs as well as state-of-the-art generic object trackers when it was evaluated as a tracker on a bird image dataset.   
+
+
 ### A Vision-based System for Traffic Anomaly Detection using Deep Learning and Decision Trees-交通异常检测
 paper:[arxiv](https://arxiv.org/abs/2104.06856)  
 code: [not provided]()  
