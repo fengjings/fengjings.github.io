@@ -146,6 +146,13 @@ paper:[arxiv](https://arxiv.org/abs/2105.12931)
 code: [github](https://github.com/deepcam-cn/yolov5-face)  
 abstract: Tremendous progress has been made on face detection in recent years using convolutional neural networks. While many face detectors use designs designated for the detection of face, we treat face detection as a general object detection task. We implement a face detector based on YOLOv5 object detector and call it YOLO5Face. We add a five-point landmark regression head into it and use the Wing loss function. We design detectors with different model sizes, from a large model to achieve the best performance, to a super small model for real-time detection on an embedded or mobile device. Experiment results on the WiderFace dataset show that our face detectors can achieve state-of-the-art performance in almost all the Easy, Medium, and Hard subsets, exceeding the more complex designated face detectors   
 
+### 2021-Training of SSD(Single Shot Detector) for Facial Detection using Nvidia Jetson Nano
+paper:[arxiv](https://arxiv.org/abs/2105.13906)  
+code: [not provided]()  
+abstract: In this project, we have used the computer vision algorithm SSD (Single Shot detector) computer vision algorithm and trained this algorithm from the dataset which consists of 139 Pictures. Images were labeled using Intel CVAT (Computer Vision Annotation Tool)
+We trained this model for facial detection. We have deployed our trained model and software in the Nvidia Jetson Nano Developer kit. Model code is written in Pytorch's deep learning framework. The programming language used is Python.  
+
+
 ### EfficientNetV2: Smaller Models and Faster Training-EfficientNetV2，更小的模型和更快的训练速度
 paper: [arxiv](https://arxiv.org/abs/2104.00298)
 code: [github](https://github.com/google/automl/efficientnetv2)    
@@ -168,6 +175,7 @@ code: [github](https://github.com/csuhan/ReDet)
 说明1：[CVer计算机视觉](https://zhuanlan.zhihu.com/p/358303556)  
 abstract: 近年来，航空图像中的目标检测在计算机视觉中得到了广泛的关注。与自然图像中的目标不同，航空目标往往具有任意方向的分布。因此，检测器需要更多的参数来编码方向信息，这往往是高度冗余和低效的。此外，由于普通的cnn没有明确地模拟方向变化，因此需要大量的旋转增强数据来训练精确的目标检测器。在本文中，我们提出了一种旋转等变检测器（ReDet）来解决这些问题，它显式地编码旋转等变和旋转不变性。更准确地说，我们在检测器中加入旋转等变网络来提取旋转等变特征，这样可以准确地预测方向，并大大减小模型尺寸。在旋转等变特征的基础上，提出了旋转不变RoI-Align（RiRoI-Align），该算法根据RoI的方向自适应地从等变特征中提取旋转不变特征。在DOTA-v1.0、DOTA-v1.5和HRSC2016等具有挑战性的航空影像数据集上进行的大量实验表明，我们的方法能够在航空目标检测任务上达到最先进的性能。与之前的最佳结果相比，我们的ReDet在DOTA-v1.0、DOTA-v1.5和HRSC2016上分别获得1.2、3.5和2.6 mAP，同时减少了参数数量。   
 
+### 
 ### You Only Look One-level Feature-只看一层特征
 paper:[arxiv](https://arxiv.org/abs/2103.09460)  
 code: [github-chensnathan](https://github.com/chensnathan/YOLOF)  
