@@ -141,6 +141,10 @@ paper:[Nabil MADALI](https://medium.datadriveninvestor.com/how-to-deal-with-smal
 chinese-translate: [CVer](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247521225&idx=4&sn=5884f12902e117e86d4a386c756fa90d&chksm=f9a1e146ced66850c3819f39c80fb4bf8df25467f05f75abd8de80588e1823f400d4545e51ad&scene=126&sessionid=1619501204&key=99223045144d05721ab94ef38f55f198a36ceda4305882f9f898e34410f4ee179bc2bd7945bdfd7355c11ca7c5414111bf31494b2d873ee2e6236b26fea4ac7dbd880cdaa9e5b91ae2862a1d099868e6beed4600e3a9bfc47e1d0c0ecf92b73944b6d6e785ec003561c6b88845ed354060a66a9920c54e7210df63051adf630a&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AdmY%2FNDrxsoiD8b14NyeJ98%3D&pass_ticket=zSkE63HtyX6m34d4L9Fe33tiPXfzrHmD34kf1iGpGIaxj6RcBtryB8W2SQKVNiLO&wx_header=0)  
 abstract: In deep learning target detection, especially face detection, the detection of small targets and small faces has always been a practical and common difficult problem due to low resolution, blurred pictures, less information, and more noise . However, in the development of the past few years, some solutions to improve the performance of small target detection have also emerged. This article will analyze, organize and summarize these methods.  
 
+### 2021-06-08-小目标检测的一些问题，思路和方案  
+[zhihu](https://mp.weixin.qq.com/s/V9CJVaRYlS5Snyveblb3uw)  
+
+
 ### YOLO5Face: Why Reinventing a Face Detector
 paper:[arxiv](https://arxiv.org/abs/2105.12931)  
 code: [github](https://github.com/deepcam-cn/yolov5-face)  
