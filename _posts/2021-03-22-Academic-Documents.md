@@ -52,6 +52,9 @@ SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training�
 
 ## 2021-object detection & drones related  
 
+### 2021-06-19-一文看尽深度学习中的20种卷积（附源码整理和论文解读）
+[zhihu-CVhub](https://zhuanlan.zhihu.com/p/381839221)
+
 ### 2021-Detection, Tracking, and Counting Meets Drones in Crowds: A Benchmark - 基准，无人机人群检测跟踪和计数
 paper:[arxiv](https://arxiv.org/abs/2104.06856)  
 code: [github - datasets and codes](https://github.com/VisDrone/DroneCrowd)  
