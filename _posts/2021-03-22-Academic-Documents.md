@@ -54,6 +54,16 @@ SNIPER的关键是减少了SNIP的计算量。SNIP借鉴了multi-scale training�
 
 ### 2021-06-19-一文看尽深度学习中的20种卷积（附源码整理和论文解读）
 [zhihu-CVhub](https://zhuanlan.zhihu.com/p/381839221)
++ 原始卷积 (Vanilla Convolution)  
++ 组卷积 (Group convolution)  
++ 转置卷积 (Transposed Convolution)  
++ 1×1卷积 (1×1 Convolution)  
++ 空洞卷积 (Atrous convolution)  
++ 深度可分离卷积 (Depthwise Separable Convolution)  
++ 可变形卷积 (Deformable convolution)  
++ 空间可分离卷积 (Spatially Separable Convolution)  
++ 图卷积 (Graph Convolution)  
++ 植入块 (Inception Block)  
 
 ### 2021-Detection, Tracking, and Counting Meets Drones in Crowds: A Benchmark - 基准，无人机人群检测跟踪和计数
 paper:[arxiv](https://arxiv.org/abs/2104.06856)  
