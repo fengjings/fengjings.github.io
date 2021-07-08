@@ -195,6 +195,11 @@ paper:[arxiv](https://arxiv.org/abs/2102.04686)
 code: [not provided]  
 abstract: 在本文中，我们提出了一种新的技术，将自动图像分析应用于结构腐蚀监测领域，并证明了与现有方法相比改进的有效性。结构腐蚀监测是基于风险的维护理念的初始步骤，取决于工程师对建筑物故障风险的评估，该评估与维护的财政成本相平衡。这就带来了人为错误的机会，当仅限于使用无人驾驶飞机捕获的图像对由于许多背景噪声而无法到达的区域进行评估时，人为错误会变得更加复杂。这个问题的重要性促进了一个积极的研究团体，旨在通过使用人工智能（AI）图像分析进行腐蚀检测来支持工程师。在本文中，我们通过开发一个框架corredetor来推进这一领域的研究。CorrDetector采用卷积神经网络（CNNs）支持的集成深度学习方法进行结构识别和腐蚀特征提取。我们使用无人机拍摄的复杂结构（如电信塔）的真实图像进行经验评估，这是工程师的典型场景。我们的研究表明\model的集成方法在分类准确率方面显著优于现有的方法。  
 
+### 2021-07-08-Drone Detection Using Convolutional Neural Networks
+paper:[arxiv](https://arxiv.org/abs/2107.01435)  
+code: [not provided]  
+abstract: In image processing, it is essential to detect and track air targets, especially UAVs. In this paper, we detect the flying drone using a fisheye camera. In the field of diagnosis and classification of objects, there are always many problems that prevent the development of rapid and significant progress in this area. During the previous decades, a couple of advanced classification methods such as convolutional neural networks and support vector machines have been developed. In this study, the drone was detected using three methods of classification of convolutional neural network (CNN), support vector machine (SVM), and nearest neighbor. The outcomes show that CNN, SVM, and nearest neighbor have total accuracy of 95%, 88%, and 80%, respectively. Compared with other classifiers with the same experimental conditions, the accuracy of the convolutional neural network classifier is satisfactory.  
+
 ### ReDet: A Rotation-equivariant Detector for Aerial Object Detection-航空图像旋转目标的检测
 paper:[arxiv](https://arxiv.org/abs/2103.07733)  
 code: [github](https://github.com/csuhan/ReDet)   
