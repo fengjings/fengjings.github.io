@@ -240,13 +240,18 @@ paper:[arxiv](https://arxiv.org/abs/2102.09480)
 code: [github](https://github.com/facebookresearch/unbiased-teacher)  
 abstract: 半监督学习，即同时具有标记和未标记数据的训练网络，最近取得了重大进展。然而，现有的工作主要集中在图像分类任务上，而忽略了需要更多注释工作的目标检测。在这项工作中，我们重新审视了半监督目标检测（SS-OD）和确定伪标记偏差问题的SS-OD。为了解决这个问题，我们引入了无偏见的教师，一个简单而有效的方法，共同培养一个学生和一个逐步进步的教师在互惠互利的方式。由于过分自信的伪标签导致班级平衡下降，无偏见的教师在COCO标准、COCO附加数据和VOC数据集上不断改进最先进的方法。具体而言，当使用1%的MS-COCO标记数据时，无偏教师相对于最先进的方法实现了6.8个绝对mAP改进，当仅使用0.5%、1%、2%的MS-COCO标记数据时，相对于监督基线实现了大约10个mAP改进。  
 
+### 2021-07-14-Deep learning approaches to Earth Observation change detection  
+paper: [arxiv](https://arxiv.org/abs/2107.06132)  
+code: [not provided]  
+abstract: The interest for change detection in the field of remote sensing has increased in the last few years. Searching for changes in satellite images has many useful applications, ranging from land cover and land use analysis to anomaly detection. In particular, urban change detection provides an efficient tool to study urban spread and growth through several years of observation. At the same time, change detection is often a computationally challenging and time-consuming task, which requires innovative methods to guarantee optimal results with unquestionable value and within reasonable time. In this paper we present two different approaches to change detection (semantic segmentation and classification) that both exploit convolutional neural networks to achieve good results, which can be further refined and used in a post-processing workflow for a large variety of applications.  
+
 
 ### 2021-Joint Object Detection and Multi-Object Tracking with Graph Neural Networks-基于图神经网络的联合目标检测与多目标跟踪  
 paper: [arxiv](https://arxiv.org/abs/2006.13164)  
 code: [github](https://github.com/yongxinw/GSDT)  
 project website: [site](http://www.xinshuoweng.com/projects/GNNDetTrk/)  
 Homepage of Xinshuo Weng: [Xinshuo Weng](http://www.xinshuoweng.com/)  
-abstract: 目标检测和数据关联是多目标跟踪系统的关键组成部分。尽管这两个组件是相互依赖的，但是之前的工作通常会分别设计检测和数据关联模块，这些模块的训练目标不同。因此，我们不能反向传播梯度并优化整个MOT系统，从而导致次优性能。为了解决这个问题，最近的工作在联合MOT框架下同时优化了检测和数据关联模块，这两个模块的性能都有所提高。在这项工作中，我们提出了一个新的基于图神经网络（GNNs）的联合MOT方法。其核心思想是GNNs能够在空间和时间域上对不同大小的对象之间的关系进行建模，这对于学习用于检测和数据关联的鉴别特征是必不可少的。通过在MOT数据集上的大量实验，我们证明了基于GNN的联合MOT方法的有效性，并展示了检测和MOT任务的最新性能。  
+abstract: 目标检测和数据关联是多目标跟踪系统的关键组成部分。尽管这两个组件是相互依赖的，但是之前的工作通常会分别设计检测和数据关联模块，这些模块的训练目标不同。因此，我们不能反向传播梯度并优化整个MOT系统，从而导致次优性能。为了解决这个问题，最近的工作在联合MOT框架下同时优化了检测和数据关联模块，这两个模块的性能都有所提高。在这项工作中，我们提出了一个新的基于图神经网络（GNNs）的联合MOT方法。其核心思想是GNNs能够在空间和时间域上对不同大小的对象之间的关系进行建模，这对于学习用于检测和数据关联的鉴别特征是必不可少的。通过在MOT数据集上的大量实验，我们证明了基于GNN的联合MOT方法的有效性，并展示了检测和MOT任务的最新性能。   
 
 ### 2021-High-Performance Large-Scale Image Recognition Without Normalization-无归一化的高性能大规模图像识别*  
 说明1: [CVer](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247517020&idx=2&sn=5a9b20d36a20b641739d0ad77bf1bfe5&chksm=f9a1f1d3ced678c5974ba15f003353ecfcbd9481d8437921b25ede0401854b49c2d16d245eda&scene=126&sessionid=1613234694&key=55fcbf4895711c4c29efb51a11009902868c659e12bbde0aa9f37741f52dd088d11eebc7ca6997da73f856dccbd0e065e8b2226de7839bbcdfdcb2034771410097ceb771a68e6f931abfda762731e2d084a280d1b7e4a4bbc35f412b66a88c03e8c472e9f1125c77c246fc756b9c883bab2a2aad9601b000f83bb33a25d99123&ascene=1&uin=MjExODAxOTE1&devicetype=Windows+10+x64&version=6209051e&lang=zh_CN&exportkey=AThsyVtsAWz3%2BIn9ZMF5ebQ%3D&pass_ticket=sAdGHv50drvjr5%2FZxoxSpG%2BpkIDxtegv5o6yLOgTxDMqbleObR9EsLU9NXnqRU3t&wx_header=0)  
