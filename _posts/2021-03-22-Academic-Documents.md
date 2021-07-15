@@ -245,6 +245,10 @@ paper: [arxiv](https://arxiv.org/abs/2107.06132)
 code: [not provided]  
 abstract: The interest for change detection in the field of remote sensing has increased in the last few years. Searching for changes in satellite images has many useful applications, ranging from land cover and land use analysis to anomaly detection. In particular, urban change detection provides an efficient tool to study urban spread and growth through several years of observation. At the same time, change detection is often a computationally challenging and time-consuming task, which requires innovative methods to guarantee optimal results with unquestionable value and within reasonable time. In this paper we present two different approaches to change detection (semantic segmentation and classification) that both exploit convolutional neural networks to achieve good results, which can be further refined and used in a post-processing workflow for a large variety of applications.  
 
+### 2021-07-15-SenseEarth2020 - ChangeDetection  
+1st place in the Satellite Image Change Detection Challenge hosted by SenseTime.  
+code: [github](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection)  
+Task Description: Given two images of the same scene acquired at different times, we are required to mark the changed and unchanged areas. Moreover, as for the changed areas, we need to annotate their detailed semantic masks. The change detection task in this competition can be decomposed into two sub-tasks: binary segmentation of changed and unchanged areas. semantic segmentation of changed areas.
 
 ### 2021-Joint Object Detection and Multi-Object Tracking with Graph Neural Networks-基于图神经网络的联合目标检测与多目标跟踪  
 paper: [arxiv](https://arxiv.org/abs/2006.13164)  
